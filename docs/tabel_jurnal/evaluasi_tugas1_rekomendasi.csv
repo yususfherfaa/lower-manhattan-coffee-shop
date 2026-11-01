@@ -1,0 +1,4 @@
+Metode / Model,Akurasi,Macro F1,Top-3 Hit Rate
+KNN (K=20),34.89%,9.30%,78.83%
+Baseline 1 (Mayoritas),38.10%,-,-
+Baseline 2 (Mode Segmen),38.10%,-,-

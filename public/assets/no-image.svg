@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title">
+  <title id="title">Foto menu belum tersedia</title>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#f7eee3"/>
+      <stop offset="1" stop-color="#ead7c3"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="540" rx="32" fill="url(#background)"/>
+  <rect x="248" y="126" width="224" height="224" rx="30" fill="#fffaf4" stroke="#d6bda5" stroke-width="8"/>
+  <circle cx="310" cy="190" r="20" fill="#c68b67"/>
+  <path d="M268 316l66-76 45 48 35-37 40 65z" fill="#d8b398"/>
+  <path d="M280 326h160" stroke="#f7e5d4" stroke-width="10" stroke-linecap="round"/>
+  <text x="360" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#735740">FOTO MENU</text>
+  <text x="360" y="447" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#8d735c">belum tersedia</text>
+</svg>

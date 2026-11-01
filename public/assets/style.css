@@ -1,0 +1,122 @@
+/* ═══════════════════════════════════════════════════════════════
+   LOWER MANHATTAN COFFEE SHOP — LEGACY COMPATIBILITY BRIDGE
+   Re-routes legacy style.css classes to theme.css beige design system
+   ═══════════════════════════════════════════════════════════════ */
+@import url('theme.css');
+
+body {
+    background: var(--grad-page);
+    color: var(--espresso);
+    font-family: var(--font-body);
+}
+
+nav {
+    background: var(--espresso) !important;
+    color: var(--cream) !important;
+    box-shadow: var(--shadow-md) !important;
+}
+
+nav h1 {
+    font-family: var(--font-heading) !important;
+    color: var(--cream) !important;
+}
+
+nav a {
+    color: var(--cream) !important;
+    background: rgba(255,255,255,0.08) !important;
+    border-radius: var(--r-sm) !important;
+}
+
+nav a:hover {
+    background: var(--terracotta) !important;
+    color: #fff !important;
+}
+
+h2, .logo-title {
+    color: var(--espresso) !important;
+    font-family: var(--font-heading) !important;
+}
+
+.stat-card, .card {
+    background: var(--ivory) !important;
+    border: 1px solid var(--sand) !important;
+    box-shadow: var(--shadow-md) !important;
+    border-radius: var(--r-lg) !important;
+}
+
+.stat-card h3 {
+    color: var(--taupe) !important;
+    font-family: var(--font-body) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: var(--fs-xs) !important;
+}
+
+.stat-card p {
+    color: var(--espresso) !important;
+    font-family: var(--font-heading) !important;
+    font-weight: 700 !important;
+}
+
+.menu a, .btn {
+    background: var(--grad-btn) !important;
+    color: #fff !important;
+    border-radius: var(--r-btn) !important;
+    box-shadow: var(--shadow-btn) !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+}
+
+.menu a:hover, .btn:hover {
+    box-shadow: var(--shadow-btn-hover) !important;
+    transform: translateY(-2px);
+}
+
+.table {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border-radius: var(--r-md) !important;
+    overflow: hidden !important;
+    box-shadow: var(--shadow-sm) !important;
+    border: 1px solid var(--sand) !important;
+}
+
+.table th {
+    background: var(--espresso) !important;
+    color: var(--cream) !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+}
+
+.table td {
+    border-bottom: 1px solid var(--sand) !important;
+    background: var(--ivory);
+    color: var(--espresso);
+}
+
+.table tr:nth-child(even) td {
+    background: var(--cream) !important;
+}
+
+.table tr:hover td {
+    background: rgba(226,205,177,0.3) !important;
+}
+
+input, select, textarea {
+    border: 1.5px solid var(--beige) !important;
+    background: var(--ivory) !important;
+    border-radius: var(--r-input) !important;
+    color: var(--espresso) !important;
+    font-family: var(--font-body) !important;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--terracotta) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(196,127,94,0.18) !important;
+}
+
+.badge {
+    background: var(--sage) !important;
+    color: #fff !important;
+}

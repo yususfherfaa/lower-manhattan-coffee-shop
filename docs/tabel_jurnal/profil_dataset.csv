@@ -1,0 +1,17 @@
+Indikator,Nilai
+Nama Dataset,Coffee Shop Sales (Maven Roasters)
+Sumber & Lisensi,Maven Analytics (Public Domain)
+Total Baris Sumber,"149,116"
+Transaksi Lower Manhattan,"47,782"
+Transaksi cabang lain dikecualikan,"101,334"
+Total Baris Bersih,"47,782"
+Baris tidak valid dibuang,0
+Rentang Tanggal,2023-01-01 s.d. 2023-06-30 (181 hari)
+Rentang Jam Operasional,06:00 - 20:59 WIB
+Jumlah Toko,1 Toko (Lower Manhattan)
+Jumlah Kategori Produk,9 Kategori
+Jumlah Produk Unik,80 Produk
+Rentang Kuantitas (Qty),1 - 6 item
+Rentang Harga Satuan,$0.80 - $45.00
+Chi-Square (Kategori x Waktu),Cramér's V = 0.0335
+Kruskal-Wallis (Volume x Jam),p < 1e-10 (Asosiasi sangat signifikan)

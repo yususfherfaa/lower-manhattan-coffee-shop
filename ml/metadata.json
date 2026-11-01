@@ -1,0 +1,72 @@
+{
+  "model_version": "2.0.0-planB",
+  "timestamp_trained": "2026-10-28 13:08:19",
+  "dataset_name": "Coffee Shop Sales (Maven Roasters)",
+  "store_location": "Lower Manhattan",
+  "store_id": 5,
+  "training_rows": 47782,
+  "product_categories": [
+    "Bakery",
+    "Branded",
+    "Coffee",
+    "Coffee beans",
+    "Drinking Chocolate",
+    "Flavours",
+    "Loose Tea",
+    "Packaged Chocolate",
+    "Tea"
+  ],
+  "dataset_sha256": "fade0fa022a56467b1071429f265e3252d7069fbc02e29d24381578d6625f7bd",
+  "environment": {
+    "sklearn_version": "1.9.1",
+    "pandas_version": "3.0.6",
+    "numpy_version": "2.5.4"
+  },
+  "tugas_1_rekomendasi": {
+    "target": "product_category (9 classes)",
+    "features": [
+      "jam",
+      "hari_minggu",
+      "is_weekend",
+      "jam_sin",
+      "jam_cos"
+    ],
+    "k_neighbors": 20,
+    "metric": "euclidean",
+    "accuracy_knn": 0.348854242963273,
+    "accuracy_baseline_majority": 0.3809772941299571,
+    "accuracy_baseline_segment": 0.3809772941299571,
+    "macro_precision": 0.09793015835081532,
+    "macro_recall": 0.11124923269231567,
+    "macro_f1": 0.09297329106442564,
+    "weighted_f1": 0.2802089150125079,
+    "top3_hit_rate": 0.7883226954065083,
+    "accuracy_time_split": 0.3460516997167139
+  },
+  "tugas_2_keramaian": {
+    "target": "total_transaksi_per_jam",
+    "features": [
+      "jam",
+      "hari_minggu",
+      "is_weekend",
+      "bulan",
+      "jam_sin",
+      "jam_cos"
+    ],
+    "k_neighbors": 17,
+    "mae_knn": 6.1151743883394065,
+    "rmse_knn": 8.159492088548978,
+    "r2_knn": 0.6190983577647418,
+    "mae_baseline": 7.419338494028794,
+    "rmse_baseline": 10.091877848916825,
+    "r2_baseline": 0.417319392683016,
+    "quantiles": {
+      "sepi_max": 11.0,
+      "sedang_max": 28.0
+    }
+  },
+  "tugas_3_eksploratif": {
+    "type_majority_baseline": 0.11133899794901846,
+    "detail_majority_baseline": 0.021577162948390606
+  }
+}

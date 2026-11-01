@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+  <title id="title">Good Day Freeze coffee drink</title>
+  <desc id="desc">Original illustration of a chilled coffee frappe and instant drink sachet.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#d8eff5"/>
+      <stop offset="1" stop-color="#8bb8ce"/>
+    </linearGradient>
+    <linearGradient id="drink" x2="0" y2="1">
+      <stop stop-color="#b87643"/>
+      <stop offset="1" stop-color="#4b2d35"/>
+    </linearGradient>
+    <linearGradient id="pack" x2="0" y2="1">
+      <stop stop-color="#29466f"/>
+      <stop offset="1" stop-color="#142942"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="15" stdDeviation="14" flood-color="#1e3b50" flood-opacity=".23"/>
+    </filter>
+  </defs>
+  <rect width="720" height="540" rx="34" fill="url(#bg)"/>
+  <circle cx="112" cy="112" r="56" fill="#fff" opacity=".35"/>
+  <path d="M0 411q176-47 338 7t382-4v126H0z" fill="#6195ad" opacity=".48"/>
+  <g fill="#fff" opacity=".55">
+    <path d="M608 103l26 18-19 24-26-18zM560 161l22 15-17 21-22-15zM143 292l25 18-19 24-25-18z"/>
+    <path d="M650 237l23 16-17 21-23-16zM92 177l22 15-17 21-22-15z"/>
+  </g>
+  <ellipse cx="373" cy="443" rx="220" ry="24" fill="#23445b" opacity=".2"/>
+  <g filter="url(#shadow)" transform="rotate(-5 248 265)">
+    <path d="M133 124h178l-10 271H145z" fill="url(#pack)" stroke="#edf9ff" stroke-width="8"/>
+    <path d="M133 146h178M143 371h148" stroke="#8ac5dd" stroke-width="7" opacity=".8"/>
+    <text x="222" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff">GOOD DAY</text>
+    <text x="222" y="259" text-anchor="middle" font-family="Arial,sans-serif" font-size="40" font-weight="900" fill="#8fe4f4">FREEZE</text>
+    <text x="222" y="291" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">COOLING COFFEE</text>
+    <path d="M167 320q53-30 108 0t-4 48q-61 25-104-8z" fill="#536a92"/>
+    <path d="M169 321q49 24 103-1" fill="none" stroke="#d5f7ff" stroke-width="6"/>
+    <path d="M193 102h77v16h-77z" fill="#8ac5dd"/>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(4 472 308)">
+    <path d="M372 228h186l-22 186H394z" fill="#fbffff" stroke="#fff" stroke-width="8"/>
+    <path d="M388 250h154l-15 123H405z" fill="url(#drink)"/>
+    <path d="M418 221l-20-42 11-5 34 48M493 221l22-60 11 4-10 59" fill="none" stroke="#f8ffff" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="466" cy="251" rx="76" ry="18" fill="#d7bdad"/>
+    <path d="M410 254q52 19 110 0" fill="none" stroke="#effbff" stroke-width="7"/>
+    <path d="M429 288l24 21-16 28-24-21zM481 319l20 17-15 23-20-17z" fill="#c9eff8" opacity=".88"/>
+    <path d="M551 274q43 0 38 48t-41 40" fill="none" stroke="#fbffff" stroke-width="12"/>
+    <text x="466" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#fff">FREEZE</text>
+  </g>
+  <text x="360" y="495" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="2" fill="#f7fdff">KOPI DINGIN &amp; CREAMY</text>
+</svg>

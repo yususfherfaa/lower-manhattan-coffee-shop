@@ -1,0 +1,10 @@
+Nama Fitur,Tipe,Rentang,Deskripsi,Nilai,Target Utama
+jam,Numerik (int),6 - 20,Jam transaksi,,
+hari_minggu,Numerik (int),0 - 6,"0=Senin, 6=Minggu",,
+is_weekend,Biner (0/1),0 atau 1,1 jika Sabtu/Minggu,,
+bulan,Numerik (int),1 - 6,Bulan transaksi (Jan - Jun),,
+segmen_waktu,Kategorikal,,4 segmen waktu Lower Manhattan,"pagi, siang, sore, malam",
+"jam_sin, jam_cos",Numerik (float),"[-1, 1]",Representasi siklis jam 24 jam,,
+store_id,Konstan (int),,ID gerai Lower Manhattan; tidak digunakan sebagai fitur model,5,
+ukuran,Kategorikal,,Ukuran porsi menu,"Sm, Rg, Lg, none",
+,Kategorikal,,Target klasifikasi rekomendasi KNN,9 kategori,product_category

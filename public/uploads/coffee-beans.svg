@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect width="480" height="320" rx="24" fill="#e5d3bc"/>
+  <circle cx="92" cy="74" r="40" fill="#d8c0a3"/>
+  <ellipse cx="196" cy="151" rx="57" ry="86" transform="rotate(-32 196 151)" fill="#70452e"/>
+  <path d="M163 82c51 52 46 100-1 139" fill="none" stroke="#c38a59" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="294" cy="181" rx="54" ry="79" transform="rotate(29 294 181)" fill="#8a5637"/>
+  <path d="M322 111c-46 48-49 90-6 133" fill="none" stroke="#d7a26e" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="240" cy="270" rx="120" ry="14" fill="#c5a17e"/>
+  <text x="240" y="305" text-anchor="middle" fill="#563722" font-family="Arial,sans-serif" font-size="20" font-weight="700">COFFEE BEANS</text>
+</svg>

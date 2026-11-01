@@ -1,0 +1,2737 @@
+{
+  "malam": [
+    {
+      "product_category": "Coffee",
+      "product_id": 34,
+      "product_detail": "Jamaican Coffee River Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 2.45,
+      "penjualan": 56
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 37,
+      "product_detail": "Espresso shot",
+      "ukuran": "none",
+      "nama_bersih": "Espresso shot",
+      "harga_katalog": 3.0,
+      "penjualan": 49
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 39,
+      "product_detail": "Latte Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Latte",
+      "harga_katalog": 4.25,
+      "penjualan": 47
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 52,
+      "product_detail": "Traditional Blend Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 45
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 65,
+      "product_detail": "Sugar Free Vanilla syrup",
+      "ukuran": "none",
+      "nama_bersih": "Sugar Free Vanilla syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 43
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 27,
+      "product_detail": "Brazilian Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.5,
+      "penjualan": 40
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 48,
+      "product_detail": "English Breakfast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 2.5,
+      "penjualan": 38
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 49,
+      "product_detail": "English Breakfast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 3.0,
+      "penjualan": 37
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 51,
+      "product_detail": "Earl Grey Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 3.0,
+      "penjualan": 36
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 22,
+      "product_detail": "Our Old Time Diner Blend Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.0,
+      "penjualan": 35
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 47,
+      "product_detail": "Serenity Green Tea Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 3.0,
+      "penjualan": 35
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 36,
+      "product_detail": "Jamaican Coffee River Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.75,
+      "penjualan": 34
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 32,
+      "product_detail": "Ethiopia Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.0,
+      "penjualan": 33
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 44,
+      "product_detail": "Peppermint Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 2.5,
+      "penjualan": 33
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 79,
+      "product_detail": "Jumbo Savory Scone",
+      "ukuran": "none",
+      "nama_bersih": "Jumbo Savory Scone",
+      "harga_katalog": 3.75,
+      "penjualan": 33
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 29,
+      "product_detail": "Columbian Medium Roast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.5,
+      "penjualan": 32
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 60,
+      "product_detail": "Sustainably Grown Organic Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 3.75,
+      "penjualan": 32
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 35,
+      "product_detail": "Jamaican Coffee River Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.1,
+      "penjualan": 32
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 23,
+      "product_detail": "Our Old Time Diner Blend Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.5,
+      "penjualan": 32
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 30,
+      "product_detail": "Columbian Medium Roast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 3.0,
+      "penjualan": 31
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 25,
+      "product_detail": "Brazilian Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 2.2,
+      "penjualan": 30
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 41,
+      "product_detail": "Cappuccino Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 4.25,
+      "penjualan": 30
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 54,
+      "product_detail": "Morning Sunrise Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 29
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 38,
+      "product_detail": "Latte",
+      "ukuran": "none",
+      "nama_bersih": "Latte",
+      "harga_katalog": 3.75,
+      "penjualan": 28
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 77,
+      "product_detail": "Oatmeal Scone",
+      "ukuran": "none",
+      "nama_bersih": "Oatmeal Scone",
+      "harga_katalog": 3.0,
+      "penjualan": 28
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 74,
+      "product_detail": "Ginger Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 28
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 73,
+      "product_detail": "Almond Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Almond Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 27
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 24,
+      "product_detail": "Our Old Time Diner Blend Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 3.0,
+      "penjualan": 27
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 40,
+      "product_detail": "Cappuccino",
+      "ukuran": "none",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 3.75,
+      "penjualan": 27
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 55,
+      "product_detail": "Morning Sunrise Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 4.0,
+      "penjualan": 27
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 70,
+      "product_detail": "Cranberry Scone",
+      "ukuran": "none",
+      "nama_bersih": "Cranberry Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 26
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 69,
+      "product_detail": "Hazelnut Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut Biscotti",
+      "harga_katalog": 3.25,
+      "penjualan": 26
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 87,
+      "product_detail": "Ouro Brasileiro shot",
+      "ukuran": "none",
+      "nama_bersih": "Ouro Brasileiro shot",
+      "harga_katalog": 3.0,
+      "penjualan": 26
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 42,
+      "product_detail": "Lemon Grass Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 2.5,
+      "penjualan": 26
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 75,
+      "product_detail": "Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Croissant",
+      "harga_katalog": 3.5,
+      "penjualan": 26
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 57,
+      "product_detail": "Spicy Eye Opener Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 3.1,
+      "penjualan": 25
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 53,
+      "product_detail": "Traditional Blend Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 3.0,
+      "penjualan": 25
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 56,
+      "product_detail": "Spicy Eye Opener Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 2.55,
+      "penjualan": 24
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 33,
+      "product_detail": "Ethiopia Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.5,
+      "penjualan": 24
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 76,
+      "product_detail": "Chocolate Chip Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Chip Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 24
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 31,
+      "product_detail": "Ethiopia Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 2.2,
+      "penjualan": 23
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 45,
+      "product_detail": "Peppermint Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 3.0,
+      "penjualan": 23
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 61,
+      "product_detail": "Sustainably Grown Organic Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 4.75,
+      "penjualan": 23
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 58,
+      "product_detail": "Dark chocolate Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 3.5,
+      "penjualan": 23
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 50,
+      "product_detail": "Earl Grey Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 2.5,
+      "penjualan": 22
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 43,
+      "product_detail": "Lemon Grass Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 3.0,
+      "penjualan": 22
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 59,
+      "product_detail": "Dark chocolate Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 4.5,
+      "penjualan": 21
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 28,
+      "product_detail": "Columbian Medium Roast Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.0,
+      "penjualan": 21
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 82,
+      "product_detail": "I Need My Bean! Diner mug",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Diner mug",
+      "harga_katalog": 12.0,
+      "penjualan": 18
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 71,
+      "product_detail": "Chocolate Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 18
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 72,
+      "product_detail": "Ginger Scone",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 17
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 46,
+      "product_detail": "Serenity Green Tea Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 2.5,
+      "penjualan": 16
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 84,
+      "product_detail": "Chocolate syrup",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 15
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 64,
+      "product_detail": "Hazelnut syrup",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 13
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 26,
+      "product_detail": "Brazilian Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.0,
+      "penjualan": 13
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 78,
+      "product_detail": "Scottish Cream Scone ",
+      "ukuran": "none",
+      "nama_bersih": "Scottish Cream Scone",
+      "harga_katalog": 4.5,
+      "penjualan": 13
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 63,
+      "product_detail": "Carmel syrup",
+      "ukuran": "none",
+      "nama_bersih": "Carmel syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 11
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 17,
+      "product_detail": "Morning Sunrise Chai",
+      "ukuran": "none",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 9.5,
+      "penjualan": 9
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 6,
+      "product_detail": "Ethiopia",
+      "ukuran": "none",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 21.0,
+      "penjualan": 6
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 20,
+      "product_detail": "Sustainably Grown Organic",
+      "ukuran": "none",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 7.6,
+      "penjualan": 5
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 4,
+      "product_detail": "Primo Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Primo Espresso Roast",
+      "harga_katalog": 20.45,
+      "penjualan": 3
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 83,
+      "product_detail": "I Need My Bean! Latte cup",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Latte cup",
+      "harga_katalog": 14.0,
+      "penjualan": 3
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 81,
+      "product_detail": "I Need My Bean! T-shirt",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! T-shirt",
+      "harga_katalog": 28.0,
+      "penjualan": 2
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 3,
+      "product_detail": "Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Espresso Roast",
+      "harga_katalog": 14.75,
+      "penjualan": 1
+    }
+  ],
+  "pagi": [
+    {
+      "product_category": "Bakery",
+      "product_id": 71,
+      "product_detail": "Chocolate Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 721
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 36,
+      "product_detail": "Jamaican Coffee River Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.75,
+      "penjualan": 575
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 45,
+      "product_detail": "Peppermint Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 3.0,
+      "penjualan": 570
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 44,
+      "product_detail": "Peppermint Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 2.5,
+      "penjualan": 540
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 48,
+      "product_detail": "English Breakfast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 2.5,
+      "penjualan": 527
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 46,
+      "product_detail": "Serenity Green Tea Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 2.5,
+      "penjualan": 526
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 50,
+      "product_detail": "Earl Grey Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 2.5,
+      "penjualan": 522
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 29,
+      "product_detail": "Columbian Medium Roast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.5,
+      "penjualan": 518
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 39,
+      "product_detail": "Latte Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Latte",
+      "harga_katalog": 4.25,
+      "penjualan": 515
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 38,
+      "product_detail": "Latte",
+      "ukuran": "none",
+      "nama_bersih": "Latte",
+      "harga_katalog": 3.75,
+      "penjualan": 506
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 53,
+      "product_detail": "Traditional Blend Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 3.0,
+      "penjualan": 501
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 61,
+      "product_detail": "Sustainably Grown Organic Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 4.75,
+      "penjualan": 500
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 41,
+      "product_detail": "Cappuccino Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 4.25,
+      "penjualan": 496
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 54,
+      "product_detail": "Morning Sunrise Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 492
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 59,
+      "product_detail": "Dark chocolate Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 4.5,
+      "penjualan": 490
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 72,
+      "product_detail": "Ginger Scone",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 490
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 26,
+      "product_detail": "Brazilian Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.0,
+      "penjualan": 489
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 51,
+      "product_detail": "Earl Grey Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 3.0,
+      "penjualan": 488
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 65,
+      "product_detail": "Sugar Free Vanilla syrup",
+      "ukuran": "none",
+      "nama_bersih": "Sugar Free Vanilla syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 488
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 55,
+      "product_detail": "Morning Sunrise Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 4.0,
+      "penjualan": 485
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 42,
+      "product_detail": "Lemon Grass Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 2.5,
+      "penjualan": 484
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 34,
+      "product_detail": "Jamaican Coffee River Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 2.45,
+      "penjualan": 483
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 40,
+      "product_detail": "Cappuccino",
+      "ukuran": "none",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 3.75,
+      "penjualan": 483
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 23,
+      "product_detail": "Our Old Time Diner Blend Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.5,
+      "penjualan": 479
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 37,
+      "product_detail": "Espresso shot",
+      "ukuran": "none",
+      "nama_bersih": "Espresso shot",
+      "harga_katalog": 3.0,
+      "penjualan": 462
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 31,
+      "product_detail": "Ethiopia Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 2.2,
+      "penjualan": 462
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 63,
+      "product_detail": "Carmel syrup",
+      "ukuran": "none",
+      "nama_bersih": "Carmel syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 462
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 25,
+      "product_detail": "Brazilian Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 2.2,
+      "penjualan": 461
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 22,
+      "product_detail": "Our Old Time Diner Blend Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.0,
+      "penjualan": 460
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 60,
+      "product_detail": "Sustainably Grown Organic Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 3.75,
+      "penjualan": 460
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 52,
+      "product_detail": "Traditional Blend Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 454
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 27,
+      "product_detail": "Brazilian Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.5,
+      "penjualan": 454
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 64,
+      "product_detail": "Hazelnut syrup",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 452
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 47,
+      "product_detail": "Serenity Green Tea Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 3.0,
+      "penjualan": 451
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 30,
+      "product_detail": "Columbian Medium Roast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 3.0,
+      "penjualan": 449
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 84,
+      "product_detail": "Chocolate syrup",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 445
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 33,
+      "product_detail": "Ethiopia Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.5,
+      "penjualan": 435
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 43,
+      "product_detail": "Lemon Grass Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 3.0,
+      "penjualan": 433
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 58,
+      "product_detail": "Dark chocolate Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 3.5,
+      "penjualan": 432
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 57,
+      "product_detail": "Spicy Eye Opener Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 3.1,
+      "penjualan": 431
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 56,
+      "product_detail": "Spicy Eye Opener Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 2.55,
+      "penjualan": 430
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 76,
+      "product_detail": "Chocolate Chip Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Chip Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 429
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 32,
+      "product_detail": "Ethiopia Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.0,
+      "penjualan": 428
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 49,
+      "product_detail": "English Breakfast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 3.0,
+      "penjualan": 424
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 35,
+      "product_detail": "Jamaican Coffee River Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.1,
+      "penjualan": 420
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 28,
+      "product_detail": "Columbian Medium Roast Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.0,
+      "penjualan": 414
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 87,
+      "product_detail": "Ouro Brasileiro shot",
+      "ukuran": "none",
+      "nama_bersih": "Ouro Brasileiro shot",
+      "harga_katalog": 3.0,
+      "penjualan": 412
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 70,
+      "product_detail": "Cranberry Scone",
+      "ukuran": "none",
+      "nama_bersih": "Cranberry Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 408
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 69,
+      "product_detail": "Hazelnut Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut Biscotti",
+      "harga_katalog": 3.25,
+      "penjualan": 399
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 24,
+      "product_detail": "Our Old Time Diner Blend Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 3.0,
+      "penjualan": 397
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 75,
+      "product_detail": "Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Croissant",
+      "harga_katalog": 3.5,
+      "penjualan": 393
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 79,
+      "product_detail": "Jumbo Savory Scone",
+      "ukuran": "none",
+      "nama_bersih": "Jumbo Savory Scone",
+      "harga_katalog": 3.75,
+      "penjualan": 365
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 77,
+      "product_detail": "Oatmeal Scone",
+      "ukuran": "none",
+      "nama_bersih": "Oatmeal Scone",
+      "harga_katalog": 3.0,
+      "penjualan": 355
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 73,
+      "product_detail": "Almond Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Almond Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 338
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 78,
+      "product_detail": "Scottish Cream Scone ",
+      "ukuran": "none",
+      "nama_bersih": "Scottish Cream Scone",
+      "harga_katalog": 4.5,
+      "penjualan": 332
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 74,
+      "product_detail": "Ginger Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 283
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 83,
+      "product_detail": "I Need My Bean! Latte cup",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Latte cup",
+      "harga_katalog": 14.0,
+      "penjualan": 97
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 1,
+      "product_detail": "Brazilian - Organic",
+      "ukuran": "none",
+      "nama_bersih": "Brazilian - Organic",
+      "harga_katalog": 18.0,
+      "penjualan": 63
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 9,
+      "product_detail": "Organic Decaf Blend",
+      "ukuran": "none",
+      "nama_bersih": "Organic Decaf Blend",
+      "harga_katalog": 22.5,
+      "penjualan": 59
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 81,
+      "product_detail": "I Need My Bean! T-shirt",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! T-shirt",
+      "harga_katalog": 28.0,
+      "penjualan": 57
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 20,
+      "product_detail": "Sustainably Grown Organic",
+      "ukuran": "none",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 7.6,
+      "penjualan": 49
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 15,
+      "product_detail": "Serenity Green Tea",
+      "ukuran": "none",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 9.25,
+      "penjualan": 49
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 82,
+      "product_detail": "I Need My Bean! Diner mug",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Diner mug",
+      "harga_katalog": 12.0,
+      "penjualan": 48
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 6,
+      "product_detail": "Ethiopia",
+      "ukuran": "none",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 21.0,
+      "penjualan": 44
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 21,
+      "product_detail": "Chili Mayan",
+      "ukuran": "none",
+      "nama_bersih": "Chili Mayan",
+      "harga_katalog": 13.33,
+      "penjualan": 43
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 13,
+      "product_detail": "English Breakfast",
+      "ukuran": "none",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 8.95,
+      "penjualan": 37
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 18,
+      "product_detail": "Spicy Eye Opener Chai",
+      "ukuran": "none",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 10.95,
+      "penjualan": 35
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 2,
+      "product_detail": "Our Old Time Diner Blend",
+      "ukuran": "none",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 18.0,
+      "penjualan": 33
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 8,
+      "product_detail": "Civet Cat",
+      "ukuran": "none",
+      "nama_bersih": "Civet Cat",
+      "harga_katalog": 45.0,
+      "penjualan": 29
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 3,
+      "product_detail": "Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Espresso Roast",
+      "harga_katalog": 14.75,
+      "penjualan": 29
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 14,
+      "product_detail": "Earl Grey",
+      "ukuran": "none",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 8.95,
+      "penjualan": 29
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 12,
+      "product_detail": "Peppermint",
+      "ukuran": "none",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 8.95,
+      "penjualan": 28
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 19,
+      "product_detail": "Dark chocolate",
+      "ukuran": "none",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 6.4,
+      "penjualan": 28
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 17,
+      "product_detail": "Morning Sunrise Chai",
+      "ukuran": "none",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 9.5,
+      "penjualan": 26
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 4,
+      "product_detail": "Primo Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Primo Espresso Roast",
+      "harga_katalog": 20.45,
+      "penjualan": 22
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 7,
+      "product_detail": "Jamacian Coffee River",
+      "ukuran": "none",
+      "nama_bersih": "Jamacian Coffee River",
+      "harga_katalog": 19.75,
+      "penjualan": 22
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 11,
+      "product_detail": "Lemon Grass",
+      "ukuran": "none",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 8.95,
+      "penjualan": 21
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 10,
+      "product_detail": "Guatemalan Sustainably Grown",
+      "ukuran": "none",
+      "nama_bersih": "Guatemalan Sustainably Grown",
+      "harga_katalog": 10.0,
+      "penjualan": 20
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 5,
+      "product_detail": "Columbian Medium Roast",
+      "ukuran": "none",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 15.0,
+      "penjualan": 18
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 16,
+      "product_detail": "Traditional Blend Chai",
+      "ukuran": "none",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 8.95,
+      "penjualan": 16
+    }
+  ],
+  "siang": [
+    {
+      "product_category": "Coffee",
+      "product_id": 32,
+      "product_detail": "Ethiopia Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.0,
+      "penjualan": 283
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 49,
+      "product_detail": "English Breakfast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 3.0,
+      "penjualan": 259
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 60,
+      "product_detail": "Sustainably Grown Organic Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 3.75,
+      "penjualan": 257
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 45,
+      "product_detail": "Peppermint Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 3.0,
+      "penjualan": 249
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 87,
+      "product_detail": "Ouro Brasileiro shot",
+      "ukuran": "none",
+      "nama_bersih": "Ouro Brasileiro shot",
+      "harga_katalog": 3.0,
+      "penjualan": 247
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 29,
+      "product_detail": "Columbian Medium Roast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.5,
+      "penjualan": 236
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 59,
+      "product_detail": "Dark chocolate Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 4.5,
+      "penjualan": 233
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 72,
+      "product_detail": "Ginger Scone",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 232
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 30,
+      "product_detail": "Columbian Medium Roast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 3.0,
+      "penjualan": 229
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 54,
+      "product_detail": "Morning Sunrise Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 229
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 26,
+      "product_detail": "Brazilian Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.0,
+      "penjualan": 228
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 23,
+      "product_detail": "Our Old Time Diner Blend Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.5,
+      "penjualan": 228
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 48,
+      "product_detail": "English Breakfast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 2.5,
+      "penjualan": 226
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 57,
+      "product_detail": "Spicy Eye Opener Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 3.1,
+      "penjualan": 218
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 33,
+      "product_detail": "Ethiopia Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.5,
+      "penjualan": 217
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 52,
+      "product_detail": "Traditional Blend Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 215
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 25,
+      "product_detail": "Brazilian Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 2.2,
+      "penjualan": 213
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 34,
+      "product_detail": "Jamaican Coffee River Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 2.45,
+      "penjualan": 212
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 51,
+      "product_detail": "Earl Grey Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 3.0,
+      "penjualan": 209
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 79,
+      "product_detail": "Jumbo Savory Scone",
+      "ukuran": "none",
+      "nama_bersih": "Jumbo Savory Scone",
+      "harga_katalog": 3.75,
+      "penjualan": 209
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 39,
+      "product_detail": "Latte Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Latte",
+      "harga_katalog": 4.25,
+      "penjualan": 207
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 41,
+      "product_detail": "Cappuccino Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 4.25,
+      "penjualan": 205
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 47,
+      "product_detail": "Serenity Green Tea Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 3.0,
+      "penjualan": 202
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 28,
+      "product_detail": "Columbian Medium Roast Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.0,
+      "penjualan": 194
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 50,
+      "product_detail": "Earl Grey Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 2.5,
+      "penjualan": 194
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 31,
+      "product_detail": "Ethiopia Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 2.2,
+      "penjualan": 192
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 38,
+      "product_detail": "Latte",
+      "ukuran": "none",
+      "nama_bersih": "Latte",
+      "harga_katalog": 3.75,
+      "penjualan": 192
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 44,
+      "product_detail": "Peppermint Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 2.5,
+      "penjualan": 189
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 22,
+      "product_detail": "Our Old Time Diner Blend Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.0,
+      "penjualan": 187
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 55,
+      "product_detail": "Morning Sunrise Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 4.0,
+      "penjualan": 186
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 43,
+      "product_detail": "Lemon Grass Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 3.0,
+      "penjualan": 185
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 27,
+      "product_detail": "Brazilian Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.5,
+      "penjualan": 185
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 46,
+      "product_detail": "Serenity Green Tea Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 2.5,
+      "penjualan": 183
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 71,
+      "product_detail": "Chocolate Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 182
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 56,
+      "product_detail": "Spicy Eye Opener Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 2.55,
+      "penjualan": 180
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 37,
+      "product_detail": "Espresso shot",
+      "ukuran": "none",
+      "nama_bersih": "Espresso shot",
+      "harga_katalog": 3.0,
+      "penjualan": 179
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 42,
+      "product_detail": "Lemon Grass Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 2.5,
+      "penjualan": 178
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 40,
+      "product_detail": "Cappuccino",
+      "ukuran": "none",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 3.75,
+      "penjualan": 178
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 58,
+      "product_detail": "Dark chocolate Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 3.5,
+      "penjualan": 176
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 36,
+      "product_detail": "Jamaican Coffee River Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.75,
+      "penjualan": 175
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 24,
+      "product_detail": "Our Old Time Diner Blend Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 3.0,
+      "penjualan": 173
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 65,
+      "product_detail": "Sugar Free Vanilla syrup",
+      "ukuran": "none",
+      "nama_bersih": "Sugar Free Vanilla syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 171
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 78,
+      "product_detail": "Scottish Cream Scone ",
+      "ukuran": "none",
+      "nama_bersih": "Scottish Cream Scone",
+      "harga_katalog": 4.5,
+      "penjualan": 167
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 35,
+      "product_detail": "Jamaican Coffee River Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.1,
+      "penjualan": 165
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 75,
+      "product_detail": "Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Croissant",
+      "harga_katalog": 3.5,
+      "penjualan": 164
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 69,
+      "product_detail": "Hazelnut Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut Biscotti",
+      "harga_katalog": 3.25,
+      "penjualan": 158
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 73,
+      "product_detail": "Almond Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Almond Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 158
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 76,
+      "product_detail": "Chocolate Chip Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Chip Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 156
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 61,
+      "product_detail": "Sustainably Grown Organic Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 4.75,
+      "penjualan": 156
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 53,
+      "product_detail": "Traditional Blend Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 3.0,
+      "penjualan": 155
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 63,
+      "product_detail": "Carmel syrup",
+      "ukuran": "none",
+      "nama_bersih": "Carmel syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 146
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 70,
+      "product_detail": "Cranberry Scone",
+      "ukuran": "none",
+      "nama_bersih": "Cranberry Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 144
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 84,
+      "product_detail": "Chocolate syrup",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 142
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 74,
+      "product_detail": "Ginger Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 137
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 77,
+      "product_detail": "Oatmeal Scone",
+      "ukuran": "none",
+      "nama_bersih": "Oatmeal Scone",
+      "harga_katalog": 3.0,
+      "penjualan": 123
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 64,
+      "product_detail": "Hazelnut syrup",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 97
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 82,
+      "product_detail": "I Need My Bean! Diner mug",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Diner mug",
+      "harga_katalog": 12.0,
+      "penjualan": 30
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 83,
+      "product_detail": "I Need My Bean! Latte cup",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Latte cup",
+      "harga_katalog": 14.0,
+      "penjualan": 24
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 81,
+      "product_detail": "I Need My Bean! T-shirt",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! T-shirt",
+      "harga_katalog": 28.0,
+      "penjualan": 20
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 20,
+      "product_detail": "Sustainably Grown Organic",
+      "ukuran": "none",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 7.6,
+      "penjualan": 18
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 5,
+      "product_detail": "Columbian Medium Roast",
+      "ukuran": "none",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 15.0,
+      "penjualan": 17
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 8,
+      "product_detail": "Civet Cat",
+      "ukuran": "none",
+      "nama_bersih": "Civet Cat",
+      "harga_katalog": 45.0,
+      "penjualan": 17
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 1,
+      "product_detail": "Brazilian - Organic",
+      "ukuran": "none",
+      "nama_bersih": "Brazilian - Organic",
+      "harga_katalog": 18.0,
+      "penjualan": 16
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 6,
+      "product_detail": "Ethiopia",
+      "ukuran": "none",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 21.0,
+      "penjualan": 15
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 16,
+      "product_detail": "Traditional Blend Chai",
+      "ukuran": "none",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 8.95,
+      "penjualan": 14
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 9,
+      "product_detail": "Organic Decaf Blend",
+      "ukuran": "none",
+      "nama_bersih": "Organic Decaf Blend",
+      "harga_katalog": 22.5,
+      "penjualan": 14
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 18,
+      "product_detail": "Spicy Eye Opener Chai",
+      "ukuran": "none",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 10.95,
+      "penjualan": 11
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 13,
+      "product_detail": "English Breakfast",
+      "ukuran": "none",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 8.95,
+      "penjualan": 11
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 3,
+      "product_detail": "Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Espresso Roast",
+      "harga_katalog": 14.75,
+      "penjualan": 11
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 17,
+      "product_detail": "Morning Sunrise Chai",
+      "ukuran": "none",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 9.5,
+      "penjualan": 10
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 2,
+      "product_detail": "Our Old Time Diner Blend",
+      "ukuran": "none",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 18.0,
+      "penjualan": 9
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 7,
+      "product_detail": "Jamacian Coffee River",
+      "ukuran": "none",
+      "nama_bersih": "Jamacian Coffee River",
+      "harga_katalog": 19.75,
+      "penjualan": 9
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 21,
+      "product_detail": "Chili Mayan",
+      "ukuran": "none",
+      "nama_bersih": "Chili Mayan",
+      "harga_katalog": 13.33,
+      "penjualan": 9
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 11,
+      "product_detail": "Lemon Grass",
+      "ukuran": "none",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 8.95,
+      "penjualan": 6
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 15,
+      "product_detail": "Serenity Green Tea",
+      "ukuran": "none",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 9.25,
+      "penjualan": 6
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 10,
+      "product_detail": "Guatemalan Sustainably Grown",
+      "ukuran": "none",
+      "nama_bersih": "Guatemalan Sustainably Grown",
+      "harga_katalog": 10.0,
+      "penjualan": 5
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 14,
+      "product_detail": "Earl Grey",
+      "ukuran": "none",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 8.95,
+      "penjualan": 5
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 12,
+      "product_detail": "Peppermint",
+      "ukuran": "none",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 8.95,
+      "penjualan": 5
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 4,
+      "product_detail": "Primo Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Primo Espresso Roast",
+      "harga_katalog": 20.45,
+      "penjualan": 2
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 19,
+      "product_detail": "Dark chocolate",
+      "ukuran": "none",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 6.4,
+      "penjualan": 2
+    }
+  ],
+  "sore": [
+    {
+      "product_category": "Coffee",
+      "product_id": 38,
+      "product_detail": "Latte",
+      "ukuran": "none",
+      "nama_bersih": "Latte",
+      "harga_katalog": 3.75,
+      "penjualan": 229
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 57,
+      "product_detail": "Spicy Eye Opener Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 3.1,
+      "penjualan": 196
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 52,
+      "product_detail": "Traditional Blend Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 192
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 31,
+      "product_detail": "Ethiopia Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 2.2,
+      "penjualan": 192
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 32,
+      "product_detail": "Ethiopia Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.0,
+      "penjualan": 186
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 36,
+      "product_detail": "Jamaican Coffee River Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.75,
+      "penjualan": 181
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 34,
+      "product_detail": "Jamaican Coffee River Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 2.45,
+      "penjualan": 180
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 42,
+      "product_detail": "Lemon Grass Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 2.5,
+      "penjualan": 175
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 87,
+      "product_detail": "Ouro Brasileiro shot",
+      "ukuran": "none",
+      "nama_bersih": "Ouro Brasileiro shot",
+      "harga_katalog": 3.0,
+      "penjualan": 174
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 23,
+      "product_detail": "Our Old Time Diner Blend Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.5,
+      "penjualan": 173
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 46,
+      "product_detail": "Serenity Green Tea Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 2.5,
+      "penjualan": 169
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 59,
+      "product_detail": "Dark chocolate Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 4.5,
+      "penjualan": 168
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 40,
+      "product_detail": "Cappuccino",
+      "ukuran": "none",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 3.75,
+      "penjualan": 167
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 29,
+      "product_detail": "Columbian Medium Roast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.5,
+      "penjualan": 164
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 41,
+      "product_detail": "Cappuccino Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Cappuccino",
+      "harga_katalog": 4.25,
+      "penjualan": 163
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 61,
+      "product_detail": "Sustainably Grown Organic Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 4.75,
+      "penjualan": 162
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 25,
+      "product_detail": "Brazilian Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 2.2,
+      "penjualan": 162
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 51,
+      "product_detail": "Earl Grey Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 3.0,
+      "penjualan": 161
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 30,
+      "product_detail": "Columbian Medium Roast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 3.0,
+      "penjualan": 161
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 54,
+      "product_detail": "Morning Sunrise Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 2.5,
+      "penjualan": 161
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 50,
+      "product_detail": "Earl Grey Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 2.5,
+      "penjualan": 158
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 49,
+      "product_detail": "English Breakfast Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 3.0,
+      "penjualan": 157
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 22,
+      "product_detail": "Our Old Time Diner Blend Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 2.0,
+      "penjualan": 156
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 39,
+      "product_detail": "Latte Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Latte",
+      "harga_katalog": 4.25,
+      "penjualan": 154
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 75,
+      "product_detail": "Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Croissant",
+      "harga_katalog": 3.5,
+      "penjualan": 153
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 48,
+      "product_detail": "English Breakfast Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 2.5,
+      "penjualan": 153
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 45,
+      "product_detail": "Peppermint Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 3.0,
+      "penjualan": 153
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 27,
+      "product_detail": "Brazilian Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.5,
+      "penjualan": 152
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 33,
+      "product_detail": "Ethiopia Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 3.5,
+      "penjualan": 149
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 26,
+      "product_detail": "Brazilian Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Brazilian",
+      "harga_katalog": 3.0,
+      "penjualan": 148
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 28,
+      "product_detail": "Columbian Medium Roast Sm",
+      "ukuran": "Sm",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 2.0,
+      "penjualan": 144
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 37,
+      "product_detail": "Espresso shot",
+      "ukuran": "none",
+      "nama_bersih": "Espresso shot",
+      "harga_katalog": 3.0,
+      "penjualan": 144
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 77,
+      "product_detail": "Oatmeal Scone",
+      "ukuran": "none",
+      "nama_bersih": "Oatmeal Scone",
+      "harga_katalog": 3.0,
+      "penjualan": 140
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 60,
+      "product_detail": "Sustainably Grown Organic Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 3.75,
+      "penjualan": 140
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 44,
+      "product_detail": "Peppermint Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 2.5,
+      "penjualan": 140
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 56,
+      "product_detail": "Spicy Eye Opener Chai Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 2.55,
+      "penjualan": 136
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 43,
+      "product_detail": "Lemon Grass Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 3.0,
+      "penjualan": 135
+    },
+    {
+      "product_category": "Drinking Chocolate",
+      "product_id": 58,
+      "product_detail": "Dark chocolate Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 3.5,
+      "penjualan": 132
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 24,
+      "product_detail": "Our Old Time Diner Blend Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 3.0,
+      "penjualan": 128
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 65,
+      "product_detail": "Sugar Free Vanilla syrup",
+      "ukuran": "none",
+      "nama_bersih": "Sugar Free Vanilla syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 128
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 55,
+      "product_detail": "Morning Sunrise Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 4.0,
+      "penjualan": 126
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 69,
+      "product_detail": "Hazelnut Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut Biscotti",
+      "harga_katalog": 3.25,
+      "penjualan": 126
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 63,
+      "product_detail": "Carmel syrup",
+      "ukuran": "none",
+      "nama_bersih": "Carmel syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 125
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 73,
+      "product_detail": "Almond Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Almond Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 119
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 47,
+      "product_detail": "Serenity Green Tea Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 3.0,
+      "penjualan": 118
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 76,
+      "product_detail": "Chocolate Chip Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Chip Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 117
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 79,
+      "product_detail": "Jumbo Savory Scone",
+      "ukuran": "none",
+      "nama_bersih": "Jumbo Savory Scone",
+      "harga_katalog": 3.75,
+      "penjualan": 114
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 72,
+      "product_detail": "Ginger Scone",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 112
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 71,
+      "product_detail": "Chocolate Croissant",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate Croissant",
+      "harga_katalog": 3.75,
+      "penjualan": 110
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 70,
+      "product_detail": "Cranberry Scone",
+      "ukuran": "none",
+      "nama_bersih": "Cranberry Scone",
+      "harga_katalog": 3.25,
+      "penjualan": 109
+    },
+    {
+      "product_category": "Coffee",
+      "product_id": 35,
+      "product_detail": "Jamaican Coffee River Rg",
+      "ukuran": "Rg",
+      "nama_bersih": "Jamaican Coffee River",
+      "harga_katalog": 3.1,
+      "penjualan": 104
+    },
+    {
+      "product_category": "Tea",
+      "product_id": 53,
+      "product_detail": "Traditional Blend Chai Lg",
+      "ukuran": "Lg",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 3.0,
+      "penjualan": 104
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 64,
+      "product_detail": "Hazelnut syrup",
+      "ukuran": "none",
+      "nama_bersih": "Hazelnut syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 97
+    },
+    {
+      "product_category": "Flavours",
+      "product_id": 84,
+      "product_detail": "Chocolate syrup",
+      "ukuran": "none",
+      "nama_bersih": "Chocolate syrup",
+      "harga_katalog": 0.8,
+      "penjualan": 95
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 74,
+      "product_detail": "Ginger Biscotti",
+      "ukuran": "none",
+      "nama_bersih": "Ginger Biscotti",
+      "harga_katalog": 3.5,
+      "penjualan": 92
+    },
+    {
+      "product_category": "Bakery",
+      "product_id": 78,
+      "product_detail": "Scottish Cream Scone ",
+      "ukuran": "none",
+      "nama_bersih": "Scottish Cream Scone",
+      "harga_katalog": 4.5,
+      "penjualan": 89
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 82,
+      "product_detail": "I Need My Bean! Diner mug",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Diner mug",
+      "harga_katalog": 12.0,
+      "penjualan": 30
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 15,
+      "product_detail": "Serenity Green Tea",
+      "ukuran": "none",
+      "nama_bersih": "Serenity Green Tea",
+      "harga_katalog": 9.25,
+      "penjualan": 18
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 20,
+      "product_detail": "Sustainably Grown Organic",
+      "ukuran": "none",
+      "nama_bersih": "Sustainably Grown Organic",
+      "harga_katalog": 7.6,
+      "penjualan": 17
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 16,
+      "product_detail": "Traditional Blend Chai",
+      "ukuran": "none",
+      "nama_bersih": "Traditional Blend Chai",
+      "harga_katalog": 8.95,
+      "penjualan": 14
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 6,
+      "product_detail": "Ethiopia",
+      "ukuran": "none",
+      "nama_bersih": "Ethiopia",
+      "harga_katalog": 21.0,
+      "penjualan": 14
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 83,
+      "product_detail": "I Need My Bean! Latte cup",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! Latte cup",
+      "harga_katalog": 14.0,
+      "penjualan": 13
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 7,
+      "product_detail": "Jamacian Coffee River",
+      "ukuran": "none",
+      "nama_bersih": "Jamacian Coffee River",
+      "harga_katalog": 19.75,
+      "penjualan": 11
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 10,
+      "product_detail": "Guatemalan Sustainably Grown",
+      "ukuran": "none",
+      "nama_bersih": "Guatemalan Sustainably Grown",
+      "harga_katalog": 10.0,
+      "penjualan": 10
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 13,
+      "product_detail": "English Breakfast",
+      "ukuran": "none",
+      "nama_bersih": "English Breakfast",
+      "harga_katalog": 8.95,
+      "penjualan": 10
+    },
+    {
+      "product_category": "Packaged Chocolate",
+      "product_id": 19,
+      "product_detail": "Dark chocolate",
+      "ukuran": "none",
+      "nama_bersih": "Dark chocolate",
+      "harga_katalog": 6.4,
+      "penjualan": 9
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 1,
+      "product_detail": "Brazilian - Organic",
+      "ukuran": "none",
+      "nama_bersih": "Brazilian - Organic",
+      "harga_katalog": 18.0,
+      "penjualan": 8
+    },
+    {
+      "product_category": "Branded",
+      "product_id": 81,
+      "product_detail": "I Need My Bean! T-shirt",
+      "ukuran": "none",
+      "nama_bersih": "I Need My Bean! T-shirt",
+      "harga_katalog": 28.0,
+      "penjualan": 7
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 14,
+      "product_detail": "Earl Grey",
+      "ukuran": "none",
+      "nama_bersih": "Earl Grey",
+      "harga_katalog": 8.95,
+      "penjualan": 7
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 2,
+      "product_detail": "Our Old Time Diner Blend",
+      "ukuran": "none",
+      "nama_bersih": "Our Old Time Diner Blend",
+      "harga_katalog": 18.0,
+      "penjualan": 6
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 3,
+      "product_detail": "Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Espresso Roast",
+      "harga_katalog": 14.75,
+      "penjualan": 5
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 8,
+      "product_detail": "Civet Cat",
+      "ukuran": "none",
+      "nama_bersih": "Civet Cat",
+      "harga_katalog": 45.0,
+      "penjualan": 5
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 12,
+      "product_detail": "Peppermint",
+      "ukuran": "none",
+      "nama_bersih": "Peppermint",
+      "harga_katalog": 8.95,
+      "penjualan": 4
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 4,
+      "product_detail": "Primo Espresso Roast",
+      "ukuran": "none",
+      "nama_bersih": "Primo Espresso Roast",
+      "harga_katalog": 20.45,
+      "penjualan": 4
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 18,
+      "product_detail": "Spicy Eye Opener Chai",
+      "ukuran": "none",
+      "nama_bersih": "Spicy Eye Opener Chai",
+      "harga_katalog": 10.95,
+      "penjualan": 4
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 17,
+      "product_detail": "Morning Sunrise Chai",
+      "ukuran": "none",
+      "nama_bersih": "Morning Sunrise Chai",
+      "harga_katalog": 9.5,
+      "penjualan": 3
+    },
+    {
+      "product_category": "Loose Tea",
+      "product_id": 11,
+      "product_detail": "Lemon Grass",
+      "ukuran": "none",
+      "nama_bersih": "Lemon Grass",
+      "harga_katalog": 8.95,
+      "penjualan": 3
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 9,
+      "product_detail": "Organic Decaf Blend",
+      "ukuran": "none",
+      "nama_bersih": "Organic Decaf Blend",
+      "harga_katalog": 22.5,
+      "penjualan": 2
+    },
+    {
+      "product_category": "Coffee beans",
+      "product_id": 5,
+      "product_detail": "Columbian Medium Roast",
+      "ukuran": "none",
+      "nama_bersih": "Columbian Medium Roast",
+      "harga_katalog": 15.0,
+      "penjualan": 2
+    }
+  ]
+}

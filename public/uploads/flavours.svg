@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect width="480" height="320" rx="24" fill="#f0dfc9"/>
+  <circle cx="82" cy="72" r="39" fill="#e3c9a9"/>
+  <path d="M205 72h70v36l20 24v111c0 16-13 29-29 29h-52c-16 0-29-13-29-29V132l20-24V72Z" fill="#c77d45"/>
+  <rect x="194" y="161" width="92" height="45" rx="8" fill="#f8ecd7"/>
+  <path d="M210 181h60" stroke="#9d5a32" stroke-width="7" stroke-linecap="round"/>
+  <path d="M226 72V53h29v19" fill="#754b36"/>
+  <path d="M330 206c22-30 47-29 61-10-12 25-36 37-61 10Z" fill="#7a9164"/>
+  <path d="M335 204c18-1 35-7 51-19" fill="none" stroke="#d5e0bb" stroke-width="4"/>
+  <text x="240" y="305" text-anchor="middle" fill="#563722" font-family="Arial,sans-serif" font-size="22" font-weight="700">FLAVOURS</text>
+</svg>

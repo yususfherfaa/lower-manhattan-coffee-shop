@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect width="480" height="320" rx="24" fill="#e5e5d1"/>
+  <circle cx="390" cy="65" r="43" fill="#d4d8bd"/>
+  <path d="M126 190c36-57 83-81 138-70 36 8 68 34 88 70-66 37-160 39-226 0Z" fill="#b9a17c"/>
+  <path d="M155 183c28-36 57-50 86-47M205 188c22-32 48-48 79-49M259 192c18-28 41-41 67-42" fill="none" stroke="#667b4c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M190 158c-3-24 13-38 38-38 1 24-10 38-38 38ZM246 149c-1-26 17-39 42-36-1 26-15 39-42 36ZM291 171c5-23 23-32 45-24-7 22-24 31-45 24Z" fill="#7b8d5b"/>
+  <ellipse cx="240" cy="232" rx="134" ry="15" fill="#c8c0a4"/>
+  <text x="240" y="285" text-anchor="middle" fill="#4a5637" font-family="Arial,sans-serif" font-size="22" font-weight="700">LOOSE TEA</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+  <title id="title">Nutrisari orange drink</title>
+  <desc id="desc">Original illustration of a citrus drink glass, orange, and powdered drink sachet.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#fff0c7"/>
+      <stop offset="1" stop-color="#f8b35c"/>
+    </linearGradient>
+    <linearGradient id="drink" x2="0" y2="1">
+      <stop stop-color="#ffc83f"/>
+      <stop offset="1" stop-color="#ed6e13"/>
+    </linearGradient>
+    <linearGradient id="pack" x2="0" y2="1">
+      <stop stop-color="#fff7da"/>
+      <stop offset="1" stop-color="#f7d173"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="15" stdDeviation="14" flood-color="#8f4d17" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <rect width="720" height="540" rx="34" fill="url(#bg)"/>
+  <circle cx="588" cy="105" r="68" fill="#fff7da" opacity=".45"/>
+  <path d="M0 407q177-40 344 13t376-9v129H0z" fill="#e49b40" opacity=".45"/>
+  <ellipse cx="371" cy="443" rx="224" ry="25" fill="#8d501c" opacity=".18"/>
+  <g filter="url(#shadow)" transform="rotate(-6 241 266)">
+    <path d="M132 126h174l-11 268H144z" fill="url(#pack)" stroke="#fff" stroke-width="8"/>
+    <path d="M132 146h174M143 370h143" stroke="#e59d32" stroke-width="7" opacity=".75"/>
+    <text x="219" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="800" fill="#d96b11">NUTRISARI</text>
+    <circle cx="220" cy="276" r="54" fill="#f58a17"/>
+    <circle cx="220" cy="276" r="40" fill="#ffd45d"/>
+    <path d="M220 236v80M180 276h80M192 248l56 56M248 248l-56 56" stroke="#fff6cf" stroke-width="5"/>
+    <text x="219" y="355" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#a74e0b">JERUK SEGAR</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(3 478 307)">
+    <path d="M382 226h185l-22 190H404z" fill="#fffaf0" stroke="#fff" stroke-width="8"/>
+    <path d="M398 248h153l-15 127H414z" fill="url(#drink)"/>
+    <path d="M431 220l-23-43 11-6 37 50M499 220l24-56 11 5-13 54" fill="none" stroke="#fff9e9" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="477" cy="250" rx="76" ry="18" fill="#ffe6a7"/>
+    <path d="M424 254q55 18 106 0" fill="none" stroke="#fff7d9" stroke-width="7"/>
+    <circle cx="545" cy="365" r="36" fill="#ff9a1f"/>
+    <circle cx="545" cy="365" r="25" fill="#ffd35a"/>
+    <path d="M545 340v50M520 365h50M527 347l36 36M563 347l-36 36" stroke="#fff8df" stroke-width="4"/>
+    <path d="M565 274q43 0 38 48t-41 40" fill="none" stroke="#fffaf0" stroke-width="12"/>
+    <path d="M455 211q-16-30 0-47 6 22 14 7 8-15 13 3 5 19-20 37z" fill="#4b9a46"/>
+  </g>
+  <text x="360" y="495" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="2" fill="#fffaf0">SEGAR DENGAN RASA JERUK</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+  <title id="title">Good Day coffee drink</title>
+  <desc id="desc">Original illustration of a coffee sachet and iced coffee glass.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#f7e4d3"/>
+      <stop offset="1" stop-color="#d6a982"/>
+    </linearGradient>
+    <linearGradient id="coffee" x2="0" y2="1">
+      <stop stop-color="#9c5c34"/>
+      <stop offset="1" stop-color="#482817"/>
+    </linearGradient>
+    <linearGradient id="pack" x2="0" y2="1">
+      <stop stop-color="#f8e7b6"/>
+      <stop offset="1" stop-color="#e7a641"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="15" stdDeviation="14" flood-color="#59351f" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="720" height="540" rx="34" fill="url(#bg)"/>
+  <circle cx="576" cy="102" r="62" fill="#fff8e7" opacity=".35"/>
+  <path d="M0 402c120-42 190-15 286 17s249 41 434-15v136H0z" fill="#bd845b" opacity=".46"/>
+  <ellipse cx="368" cy="439" rx="213" ry="26" fill="#70462d" opacity=".18"/>
+  <g filter="url(#shadow)" transform="rotate(-5 253 264)">
+    <path d="M128 126h192l-11 264H141z" fill="url(#pack)" stroke="#fff3d5" stroke-width="8"/>
+    <path d="M128 145h192M139 367h166" stroke="#bd772b" stroke-width="8" opacity=".7"/>
+    <text x="224" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#704128">GOOD DAY</text>
+    <path d="M157 233q68-28 135 0v89q-67 30-135 0z" fill="#754126"/>
+    <text x="224" y="271" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#fff8e8">CAPPUCCINO</text>
+    <text x="224" y="302" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#f6dbaa">INSTANT COFFEE</text>
+    <path d="M178 105h92v18h-92z" fill="#e1ae62"/>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(4 474 307)">
+    <path d="M374 214h187l-19 197H394z" fill="#fff9f2" stroke="#fff" stroke-width="8"/>
+    <path d="M390 238h155l-12 133H403z" fill="url(#coffee)"/>
+    <path d="M402 220l-20-33 21-6 29 38M480 219l20-58 11 5-9 57" fill="none" stroke="#f5ead8" stroke-width="9" stroke-linecap="round"/>
+    <path d="M403 276q67-25 134 0v20q-66 22-132 0z" fill="#f8e9cd" opacity=".9"/>
+    <text x="468" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff5e4">KOPI SUSU</text>
+    <path d="M556 264q44 0 39 52t-40 46" fill="none" stroke="#fff9f2" stroke-width="13"/>
+    <ellipse cx="468" cy="237" rx="76" ry="18" fill="#c28b63"/>
+    <path d="M414 237q53 20 107 0" fill="none" stroke="#f8e9cd" stroke-width="7"/>
+  </g>
+  <text x="360" y="495" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="2" fill="#fff9f2">KOPI FAVORIT WARKOP</text>
+</svg>

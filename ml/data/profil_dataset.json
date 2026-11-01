@@ -1,0 +1,74 @@
+{
+  "file_hash_sha256": "287d06d19f7a832d48f1deea7b149836fb32d591010f060bdcf8d1959653bfe1",
+  "total_baris_mentah": 149116,
+  "total_baris_lokasi_target": 47782,
+  "baris_dikecualikan_lokasi_lain": 101334,
+  "total_baris_bersih": 47782,
+  "total_baris_dibuang": 0,
+  "lokasi_target": "Lower Manhattan",
+  "store_id_target": 5,
+  "rentang_tanggal": [
+    "2023-01-01",
+    "2023-06-30"
+  ],
+  "total_hari": 181,
+  "rentang_jam": [
+    6,
+    20
+  ],
+  "rentang_qty": [
+    1,
+    6
+  ],
+  "rentang_harga": [
+    0.8,
+    45.0
+  ],
+  "total_kategori": 9,
+  "distribusi_kategori": {
+    "Coffee": 18204,
+    "Tea": 13912,
+    "Bakery": 7890,
+    "Drinking Chocolate": 3405,
+    "Flavours": 2930,
+    "Coffee beans": 531,
+    "Loose Tea": 381,
+    "Branded": 349,
+    "Packaged Chocolate": 180
+  },
+  "distribusi_jam": {
+    "6": 2918,
+    "7": 5792,
+    "8": 5779,
+    "9": 5914,
+    "10": 6297,
+    "11": 2755,
+    "12": 2828,
+    "13": 2633,
+    "14": 2860,
+    "15": 3051,
+    "16": 2803,
+    "17": 2525,
+    "18": 1427,
+    "19": 125,
+    "20": 75
+  },
+  "distribusi_bulan": {
+    "1": 5533,
+    "2": 5263,
+    "3": 6782,
+    "4": 8150,
+    "5": 10758,
+    "6": 11296
+  },
+  "chi_square_kategori_segmen": {
+    "chi2": 161.24225175841838,
+    "p_value": 2.6255847237074023e-22,
+    "cramers_v": 0.03353873189996528
+  },
+  "kruskal_wallis_volume_jam": {
+    "h_stat": 1016.8552386167856,
+    "p_value": 3.783364175173563e-208
+  },
+  "status_data_layak": "YA"
+}

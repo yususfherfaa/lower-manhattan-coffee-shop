@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect width="480" height="320" rx="24" fill="#ead8ca"/>
+  <circle cx="390" cy="66" r="43" fill="#dfc4b1"/>
+  <g transform="rotate(-9 240 162)">
+    <rect x="143" y="91" width="194" height="150" rx="15" fill="#68412f"/>
+    <rect x="159" y="107" width="162" height="118" rx="9" fill="#8e5a3c"/>
+    <path d="M159 146h162M159 186h162M213 107v118M267 107v118" stroke="#c28a5d" stroke-width="5"/>
+    <path d="M212 135h55v53h-55z" fill="#f0d7b4"/>
+    <path d="M223 153h33" stroke="#71432f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="240" y="285" text-anchor="middle" fill="#563722" font-family="Arial,sans-serif" font-size="20" font-weight="700">PACKAGED CHOCOLATE</text>
+</svg>

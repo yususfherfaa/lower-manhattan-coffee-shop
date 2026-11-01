@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="title desc">
+  <title id="title">QRIS belum dikonfigurasi</title>
+  <desc id="desc">Ganti dengan gambar QRIS milik usaha melalui halaman pengaturan.</desc>
+  <rect width="480" height="320" rx="20" fill="#f3f4f6"/>
+  <rect x="24" y="24" width="432" height="272" rx="14" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="240" y="145" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="22" font-weight="700">QRIS belum dikonfigurasi</text>
+  <text x="240" y="184" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="15">Atur gambar pembayaran melalui halaman pengaturan.</text>
+</svg>
