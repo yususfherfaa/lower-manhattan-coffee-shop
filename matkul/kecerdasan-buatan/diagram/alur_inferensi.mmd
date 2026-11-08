@@ -1,0 +1,25 @@
+flowchart TD
+    A[Pelanggan Memindai QR Meja] --> B[Sistem Mendeteksi Waktu Lokal Toko]
+    B --> C{Apakah Jam 06:00 - 20:59?}
+    C -- Tidak (Luar Jam Kerja) --> D[Tampilkan Status: Toko Tutup / Luar Jam Operasional]
+    C -- Ya (Jam Operasional) --> E[Ekstraksi Fitur: jam, hari, is_weekend, jam_sin, jam_cos]
+    
+    E --> F[Kirim HTTP GET /api/rekomendasi ke Flask Port 5001]
+    F --> G{Layanan Flask Tersedia dalam 3 Detik?}
+    
+    G -- Ya (Inferensi Normal) --> H[Model KNN K=20 Hitung Jarak Euclidean]
+    H --> I[Prediksi Distribusi Probabilitas 9 Kategori Menu]
+    H --> J[Model KNN Regresi K=17 Prediksi Volume Transaksi per Jam]
+    J --> K[Tentukan Label Keramaian: Sepi / Sedang / Ramai]
+    I --> L[Peringkatkan Kategori & Pilih 5 Produk Aktif Terbaik]
+    
+    G -- Tidak (Layanan Gangguan/Mati) --> M[Aktifkan Heuristik Fallback CI4]
+    M --> N[Baca Konfigurasi Basis Pengetahuan popularitas_segmen.json]
+    N --> L
+    M --> O[Gunakan Modus Status Keramaian Segmen Waktu]
+    O --> P[Gabungkan Hasil Inferensi]
+    
+    L --> P
+    K --> P
+    P --> Q[Kirim Respons JSON ke Browser Pelanggan]
+    Q --> R[Widget Tampilkan Rekomendasi Menu & Status Kepadatan]

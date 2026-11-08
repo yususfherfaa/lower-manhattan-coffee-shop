@@ -72,6 +72,7 @@ venv/
 !/public/uploads/*.svg
 !/public/uploads/foto-produk-*.jpg
 !/public/uploads/foto-produk-*.webp
+!/public/uploads/qris-demo-lowermanhattan.png
 
 # The real QRIS image contains payment destination details.
 /public/uploads/qris.png

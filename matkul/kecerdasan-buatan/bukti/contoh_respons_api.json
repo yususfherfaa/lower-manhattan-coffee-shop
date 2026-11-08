@@ -1,0 +1,62 @@
+{
+  "status": "success",
+  "data": {
+    "jam": 8,
+    "menit": 30,
+    "hari": "Senin",
+    "segmen": "pagi",
+    "status_keramaian": "Ramai",
+    "estimasi_transaksi_per_jam": 34.5,
+    "ambang_batas": {
+      "sepi_max": 11.0,
+      "sedang_max": 28.0
+    },
+    "rekomendasi": [
+      {
+        "peringkat": 1,
+        "product_id": 1,
+        "kategori": "Coffee",
+        "nama_produk": "Gourmet Brewed Coffee - Ethiopian Rg",
+        "harga_usd": 2.5,
+        "harga_idr": 38750,
+        "skor_probabilitas": 0.5
+      },
+      {
+        "peringkat": 2,
+        "product_id": 12,
+        "kategori": "Bakery",
+        "nama_produk": "Jumbo Chocolate Chip Cookie",
+        "harga_usd": 3.0,
+        "harga_idr": 46500,
+        "skor_probabilitas": 0.25
+      },
+      {
+        "peringkat": 3,
+        "product_id": 15,
+        "kategori": "Bakery",
+        "nama_produk": "Almond Croissant",
+        "harga_usd": 3.5,
+        "harga_idr": 54250,
+        "skor_probabilitas": 0.2
+      },
+      {
+        "peringkat": 4,
+        "product_id": 28,
+        "kategori": "Tea",
+        "nama_produk": "Earl Grey Tea Rg",
+        "harga_usd": 2.5,
+        "harga_idr": 38750,
+        "skor_probabilitas": 0.15
+      },
+      {
+        "peringkat": 5,
+        "product_id": 42,
+        "kategori": "Drinking Chocolate",
+        "nama_produk": "Hot Chocolate Lg",
+        "harga_usd": 4.0,
+        "harga_idr": 62000,
+        "skor_probabilitas": 0.1
+      }
+    ]
+  }
+}

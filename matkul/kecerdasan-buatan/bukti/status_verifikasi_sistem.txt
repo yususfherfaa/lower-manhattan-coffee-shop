@@ -1,0 +1,22 @@
+STATUS VERIFIKASI SISTEM CERDAS (KECERDASAN BUATAN)
+=====================================================
+Tanggal Verifikasi: 2026-11-02
+Sistem: Sistem Rekomendasi Menu Berbasis Waktu & Prediksi Keramaian (KNN)
+Dataset: Maven Roasters (Cabang Lower Manhattan store_id=5, 47.782 baris)
+
+STATUS INTEGRASI DAN ENDPOINT:
+1. Endpoint /health           : LULUS (HTTP 200, status: UP)
+2. Endpoint /model-info       : LULUS (Metadata versi 2.0.0-planB terpetakan)
+3. Endpoint /api/rekomendasi  : LULUS (Menghasilkan Top-5 menu & status keramaian)
+4. Endpoint /predict-crowd    : LULUS (Estimasi kuantil: Sepi <=11, Sedang 11-28, Ramai >28)
+5. Logika Toleransi Kesalahan : LULUS (Fallback ke popularitas_segmen.json saat Flask tidak aktif)
+
+SKENARIO PENGUJIAN BATAS (BOUNDARY TESTS):
+- Pergantian segmen (10:59 -> 11:00, 14:59 -> 15:00, 17:59 -> 18:00): LULUS
+- Pembatasan jam operasional (06:00 - 20:59): LULUS
+- Penanganan jam di luar operasional (misal 23:15): LULUS (Flag non-operasional aktif)
+
+CATATAN PRIVASI & INTEGRITAS:
+- Zero Personal Identifiable Information (Tidak menyimpan ID pengguna/kartu)
+- Seluruh metrik evaluasi bersumber dari ml/hasil_evaluasi.json
+- Verifikasi berhasil 100%.

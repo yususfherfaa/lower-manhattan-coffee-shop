@@ -1,0 +1,14 @@
+Pertanyaan,Jawaban dari data
+Data lulus gerbang kualitas,YA
+Cramér V kategori x segmen,0.0335 (sangat lemah)
+Kruskal-Wallis volume x jam,"H=1017, p=3.8e-208"
+"KNN (K=20, nilai repo) mengungguli baseline mayoritas (akurasi)?",TIDAK (35.31% vs 38.10%)
+"KNN (K=20, nilai repo) mengungguli baseline top-3?",TIDAK (77.83% vs 83.73%)
+Baseline modus jam-hari mengungguli mayoritas?,TIDAK (38.11% vs 38.10%)
+Sel jam-hari yang modusnya Coffee,97 dari 105
+Kelas tak pernah diprediksi KNN utama,"Branded, Coffee beans, Drinking Chocolate, Flavours, Loose Tea, Packaged Chocolate"
+Keramaian (temporal): MAE KNN vs baseline bulan terakhir,8.72 vs 8.14
+Keramaian (validasi maju): MAE rata-rata KNN vs baseline bulan terakhir,7.68 vs 7.39
+Keramaian (acak): MAE KNN vs rata-rata per jam,6.15 vs 7.42
+"Keramaian (slot kosong diisi 0, uji Juni): MAE KNN vs baseline bulan terakhir",9.03 vs 8.35
+Keramaian 3 kelas (temporal): F1 makro KNN vs baseline modus per jam,57.31% vs 65.93%

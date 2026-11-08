@@ -200,13 +200,22 @@
             </div>
 
             <div class="form-group">
-                <label>QRIS Coffee Shop (Untuk Pembayaran Non-Tunai)</label>
+                <label for="qris_mode">Mode kode QR</label>
+                <select id="qris_mode" name="qris_mode" class="form-control">
+                    <option value="demo" <?= ($settings['qris_mode'] ?? 'demo') === 'demo' ? 'selected' : '' ?>>Demo — tidak menerima pembayaran</option>
+                    <option value="live" <?= ($settings['qris_mode'] ?? 'demo') === 'live' ? 'selected' : '' ?>>Live — QR resmi usaha</option>
+                </select>
+                <small class="text-muted">Mode live hanya boleh memakai QR resmi yang diterbitkan bank/PJSP atas nama usaha ini.</small>
+            </div>
+
+            <div class="form-group">
+                <label>Kode QR demo / pembayaran resmi</label>
                 <div class="logo-preview-wrap">
                     <img
-                        src="<?= base_url($settings['qris'] ?? 'uploads/qris-placeholder.svg') ?>"
+                        src="<?= base_url($settings['qris_preview'] ?? 'uploads/qris-demo-lowermanhattan.png') ?>"
                         class="logo-preview"
                         id="qrisPreview"
-                        alt="QRIS">
+                        alt="<?= ($settings['qris_mode'] ?? 'demo') === 'demo' ? 'Kode QR demo untuk Lower Manhattan Coffee Shop' : 'Kode QR resmi yang dikonfigurasi' ?>">
                     <div>
                         <input
                             type="file"
@@ -217,6 +226,7 @@
                         <small class="text-muted">JPG, PNG, atau WebP; maksimal 2 MB.</small>
                     </div>
                 </div>
+                <small class="text-muted">Jangan mengubah QR resmi. Unggah file apa adanya setelah mendapatkannya dari bank/PJSP.</small>
             </div>
 
             <div style="margin-top:var(--sp-6);">

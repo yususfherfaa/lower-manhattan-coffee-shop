@@ -1,0 +1,15 @@
+skema,model,akurasi,presisi_makro,recall_makro,f1_makro,f1_tertimbang,top3,n_kelas_diprediksi
+acak 80:20,"KNN (K=1, F1 makro CV)",0.2818,0.1061,0.1086,0.1056,0.2709,0.4938,6
+temporal Jan-Mei/Jun,"KNN (K=1, F1 makro CV)",0.2912,0.1073,0.1093,0.1071,0.2758,0.5188,6
+acak 80:20,"KNN (K=20, nilai repo)",0.3531,0.0961,0.1118,0.0917,0.2788,0.7783,3
+temporal Jan-Mei/Jun,"KNN (K=20, nilai repo)",0.3525,0.0912,0.1103,0.0897,0.2785,0.7998,3
+acak 80:20,"KNN (K=600, akurasi CV)",0.381,0.0423,0.1111,0.0613,0.2102,0.8373,1
+temporal Jan-Mei/Jun,"KNN (K=600, akurasi CV)",0.3879,0.0431,0.1111,0.0621,0.2168,0.8373,1
+acak 80:20,Decision Tree (depth 6),0.3811,0.0909,0.1112,0.0618,0.2116,0.8371,2
+temporal Jan-Mei/Jun,Decision Tree (depth 6),0.3865,0.0714,0.1109,0.0636,0.2205,0.8374,2
+acak 80:20,Naive Bayes (Gaussian),0.381,0.0423,0.1111,0.0613,0.2102,0.8373,1
+temporal Jan-Mei/Jun,Naive Bayes (Gaussian),0.3879,0.0431,0.1111,0.0621,0.2168,0.8373,1
+acak 80:20,Random Forest (100),0.3811,0.0856,0.1112,0.0618,0.2116,0.8372,2
+temporal Jan-Mei/Jun,Random Forest (100),0.3865,0.0714,0.1109,0.0636,0.2205,0.8373,2
+acak 80:20,Logistic Regression,0.381,0.0423,0.1111,0.0613,0.2102,0.8373,1
+temporal Jan-Mei/Jun,Logistic Regression,0.3879,0.0431,0.1111,0.0621,0.2168,0.8373,1

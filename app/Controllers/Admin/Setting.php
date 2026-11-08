@@ -19,6 +19,11 @@ class Setting extends BaseController
             $data[$s['nama']] = $s['value'];
         }
 
+        $data['qris_mode'] = ($data['qris_mode'] ?? 'demo') === 'live' ? 'live' : 'demo';
+        $data['qris_preview'] = $data['qris_mode'] === 'demo'
+            ? 'uploads/qris-demo-lowermanhattan.png'
+            : ($data['qris'] ?? 'uploads/qris-placeholder.svg');
+
         return view('admin/settings', [
             'settings' => $data
         ]);
@@ -42,7 +47,13 @@ class Setting extends BaseController
                 ->with('error', implode(' ', $this->validator->getErrors()));
         }
 
-        foreach (['nama_warkop', 'alamat', 'kontak', 'server_url', 'batas_pembayaran_menit'] as $f) {
+        $qrisMode = (string) ($this->request->getPost('qris_mode') ?? 'demo');
+        if (!in_array($qrisMode, ['demo', 'live'], true)) {
+            return redirect()->back()->withInput()
+                ->with('error', 'Mode QR harus demo atau live.');
+        }
+
+        foreach (['nama_warkop', 'alamat', 'kontak', 'server_url', 'batas_pembayaran_menit', 'qris_mode'] as $f) {
             $value = $this->request->getPost($f);
 
             if ($f === 'batas_pembayaran_menit') {
@@ -52,6 +63,9 @@ class Setting extends BaseController
                         ->with('error', 'Batas pembayaran harus antara 1 dan 1440 menit.');
                 }
                 $value = (string) $minutes;
+            }
+            if ($f === 'qris_mode') {
+                $value = $qrisMode;
             }
 
             $existing = $model

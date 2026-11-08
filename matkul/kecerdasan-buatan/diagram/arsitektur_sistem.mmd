@@ -1,0 +1,33 @@
+flowchart LR
+    subgraph Browser ["Frontend Browser / Klien Web"]
+        UI[Antarmuka Pemesanan QR & Kasir POS]
+    end
+
+    subgraph CI4 ["Backend Web Server (CodeIgniter 4)"]
+        CtrlAPI[RekomendasiAPI Controller]
+        Client[FlaskRecommendationClient]
+        FallbackEngine[Heuristic Fallback Engine]
+        DB[(Database MariaDB)]
+    end
+
+    subgraph FlaskML ["Microservice AI / ML (Python Flask :5001)"]
+        FlaskRoute[/api/rekomendasi & /predict-crowd]
+        PredictEngine[predict.py Engine]
+        ModelKNN1[Model KNN Rekomendasi K=20]
+        ModelKNN2[Model KNN Keramaian K=17]
+    end
+
+    UI -->|Panggil API AJAX| CtrlAPI
+    CtrlAPI -->|Kueri Produk Aktif| DB
+    CtrlAPI -->|cURL Timeout 3s| Client
+    Client -->|HTTP GET/POST| FlaskRoute
+    FlaskRoute --> PredictEngine
+    PredictEngine --> ModelKNN1
+    PredictEngine --> ModelKNN2
+    ModelKNN1 -->|Probabilitas 9 Kategori| FlaskRoute
+    ModelKNN2 -->|Estimasi Volume Jam| FlaskRoute
+    FlaskRoute -->|JSON Response 200| Client
+    Client --> CtrlAPI
+    Client -.->|Jika Timeout / 500| FallbackEngine
+    FallbackEngine -.->|Baca popularitas_segmen.json| CtrlAPI
+    CtrlAPI -->|Payload Terformat| UI

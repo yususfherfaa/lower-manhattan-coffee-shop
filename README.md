@@ -2,6 +2,8 @@
 
 Aplikasi pemesanan dan kasir berbasis CodeIgniter 4 untuk katalog Maven Roasters, dilengkapi rekomendasi waktu dari transaksi Lower Manhattan.
 
+Identitas produk, alur pelanggan/kasir/admin, arsitektur, tabel utama, dan batasan sistem dijabarkan dalam [dokumen identitas proyek](docs/IDENTITAS_PROYEK.md). Modul penugasan akademik, laporan, dan artefak mata kuliah Machine Learning serta Kecerdasan Buatan tersedia pada folder [matkul/](matkul/README.md).
+
 ## Kebutuhan
 
 - PHP beserta ekstensi yang disyaratkan CodeIgniter 4
@@ -66,6 +68,8 @@ Untuk menjalankan seluruh rangkaian pra-pemrosesan data, pelatihan model KNN (3 
 python ml/run_all.py
 ```
 
+Penjelasan tujuan penelitian, kolom label pada data mentah dan hasil preprocessing, alur eksperimen, metrik, hasil, serta batasan evaluasi tersedia di [alur machine learning dan label dataset](docs/alur_machine_learning_dan_label_dataset.md).
+
 ## Sinkronisasi Katalog Dataset
 
 Setelah pipeline menghasilkan file SQL terbaru, jalankan migrasi dan seed untuk mengganti katalog aktif serta mengisi ulang agregat analitik Lower Manhattan. Produk katalog lama dinonaktifkan, bukan dihapus, agar relasi transaksi historis tetap tersimpan.
@@ -124,6 +128,10 @@ php spark orders:expire
 
 Setiap pembatalan mengunci pesanan dan mengembalikan stok dalam transaksi yang sama. Laporan pendapatan hanya menghitung pesanan berstatus `lunas`.
 
+### Kode QR demo dan pembayaran resmi
+
+Mode kode QR bawaan adalah **demo**. Kartu demo hanya memuat teks yang bukan instruksi pembayaran; mode demo tidak pernah memilih gambar QR yang tersimpan sebelumnya. Untuk membuat ulang aset, gunakan virtual environment dan perintah di [docs/qr_demo.md](docs/qr_demo.md). Setelah backup database utama, tinjau dan jalankan `database/fix_qris_gambar.sql` pada database yang benar untuk mengatur `qris` ke `uploads/qris-demo-lowermanhattan.png` dan `qris_mode` ke `demo`. Pengujian DB manual memerlukan DB test terpisah. Untuk mode live, minta QR resmi atas nama usaha dari bank/PJSP, unggah berkas apa adanya di Pengaturan Admin, lalu pilih **Live**. Batas unggahan tetap JPG/PNG/WebP, maksimal 2 MB.
+
 ### Hak akses opsi produk
 
 Pengelolaan menu dan opsi produk tetap dibatasi untuk role `kasir`, termasuk route opsi yang memakai `RoleFilter`. Admin tidak dapat membuka halaman menu kasir; ini keputusan desain agar pengelolaan katalog harian dilakukan oleh kasir.
@@ -138,7 +146,7 @@ Buat pengguna khusus aplikasi, bukan `root`. Jalankan perintah berikut melalui k
 
 ```sql
 CREATE USER 'warkop_app'@'localhost' IDENTIFIED BY 'GANTI_DENGAN_PASSWORD_KUAT';
-GRANT ALL PRIVILEGES ON `warkop_bahagia`.* TO 'warkop_app'@'localhost';
+GRANT ALL PRIVILEGES ON `lowermanhattancoffeshop`.* TO 'warkop_app'@'localhost';
 ```
 
 Atur pengguna dan kata sandi yang sama pada `.env` lokal. Berkas `.env.example` tidak berisi rahasia; `.env` tetap dikecualikan oleh `.gitignore`.

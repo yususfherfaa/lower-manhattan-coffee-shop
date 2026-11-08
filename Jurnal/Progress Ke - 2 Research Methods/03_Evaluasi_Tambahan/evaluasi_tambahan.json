@@ -1,0 +1,80 @@
+{
+  "sklearn": "1.9.1",
+  "baris": 47782,
+  "tugas1": {
+    "K": 20,
+    "n_uji": 9557,
+    "akurasi_knn": 0.34676153604687665,
+    "akurasi_baseline_mayoritas": 0.3809772941299571,
+    "top3_knn": 0.7911478497436434,
+    "top3_baseline_populer_global": 0.8372920372501831,
+    "top3_baseline_populer_per_segmen": 0.8372920372501831,
+    "top2_knn": 0.6247776498901328,
+    "top2_baseline_populer_global": 0.6721774615465104,
+    "tiga_kategori_terpopuler_train": [
+      "Bakery",
+      "Tea",
+      "Coffee"
+    ]
+  },
+  "tugas2_acak": {
+    "n_latih": 1804,
+    "n_uji": 452,
+    "knn_dengan_bulan": {
+      "K": 17,
+      "MAE": 6.146408120770432,
+      "RMSE": 8.18202401858837,
+      "R2": 0.6169917807838942
+    },
+    "knn_tanpa_bulan": {
+      "K": 20,
+      "MAE": 7.67887168141593,
+      "RMSE": 10.379037491395222,
+      "R2": 0.3836878135235654
+    },
+    "baseline_rata_per_jam": {
+      "MAE": 7.419338494028794,
+      "RMSE": 10.091877848916825,
+      "R2": 0.417319392683016
+    },
+    "baseline_rata_per_jam_bulan_terakhir": {
+      "MAE": 10.817982942627035,
+      "RMSE": 13.544396722776993,
+      "R2": -0.04955674937411425
+    }
+  },
+  "tugas2_temporal_JanMei_Jun": {
+    "n_latih": 1881,
+    "n_uji": 375,
+    "knn_dengan_bulan": {
+      "K": 18,
+      "MAE": 8.726370370370372,
+      "RMSE": 11.90940389921208,
+      "R2": 0.500708422831615
+    },
+    "knn_tanpa_bulan": {
+      "K": 20,
+      "MAE": 12.253066666666665,
+      "RMSE": 16.4135257232158,
+      "R2": 0.05162968556339009
+    },
+    "baseline_rata_per_jam": {
+      "MAE": 11.928470588748567,
+      "RMSE": 15.887181616114354,
+      "R2": 0.11147856025338498
+    },
+    "baseline_rata_per_jam_bulan_terakhir": {
+      "MAE": 8.144278853046595,
+      "RMSE": 10.942745333523344,
+      "R2": 0.5784716626762083
+    }
+  },
+  "rata_transaksi_per_jam_per_bulan": {
+    "1": 14.33,
+    "2": 15.12,
+    "3": 17.57,
+    "4": 21.91,
+    "5": 27.66,
+    "6": 30.12
+  }
+}

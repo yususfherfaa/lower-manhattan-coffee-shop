@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased — QR demo
+
+- Added a reproducible, high-resolution non-payment demo QR card with a plain-text payload, print SVG, responsive demo messaging, and a safe default that does not display a previously uploaded QR in demo mode.
+- Added admin selection for demo/live mode, an idempotent manual SQL update for the main database, QR scan/contrast verification, and a focused PHPUnit view test.
+- Preserved existing uploaded QR assets and history; the generated card contains no payment-provider logos or payment payload.
+
 ## Unreleased — verifikasi akhir PR-13–PR-22
 
 - Added cancellation and expiry handling for unpaid orders, including stock restoration within a transaction and a manual migration file.

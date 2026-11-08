@@ -1,0 +1,11 @@
+Metrik,Nilai,Keterangan
+Akurasi KNN (K=20),34.89%,Stratified 80:20
+Akurasi Baseline 1 (Mayoritas),38.10%,Tebak Coffee
+Akurasi Baseline 2 (Mode Segmen),38.10%,Mode per segmen waktu
+Macro Precision,9.79%,Rata-rata tidak berbobot
+Macro Recall,11.12%,Rata-rata sensitivitas
+Macro F1-Score,9.30%,Harmonik P & R
+Weighted F1-Score,28.02%,Berbobot frekuensi
+Top-3 Hit Rate KNN,78.83%,KNN 3 probabilitas teratas
+Baseline Top-3 Populer,83.73%,Coffee + Tea + Bakery
+Akurasi Split Temporal,34.61%,"Latih Jan-Mei, Uji Jun"

@@ -1,0 +1,4 @@
+Metrik,Nilai,Baseline Rata-rata,Satuan
+MAE (KNN K=17),6.1152,7.4193,transaksi/jam
+RMSE (KNN K=17),8.1595,10.0919,transaksi/jam
+R2 Score,0.6191,0.4173,proporsi varians

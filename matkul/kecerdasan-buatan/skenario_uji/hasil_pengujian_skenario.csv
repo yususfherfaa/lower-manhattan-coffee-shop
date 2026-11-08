@@ -1,0 +1,11 @@
+id_skenario,nama_skenario,input_kondisi,hasil_diharapkan,hasil_aktual,status_uji
+TC-01,Segmen Pagi Jam Sibuk,"Senin, 08:30 WIB",Kategori Coffee & Bakery dominan; Label: Ramai,"Coffee (P=0.50), Bakery (P=0.25); Ramai (34.5 tx/jam)",LULUS
+TC-02,Batas Pagi ke Siang,"Hari Kerja, 10:59 WIB",Segmen tetap Pagi; Menu sarapan/kopi aktif,Segmen Pagi terdeteksi; Rekomendasi Pagi termuat normal,LULUS
+TC-03,Batas Awal Siang,"Hari Kerja, 11:00 WIB",Segmen beralih ke Siang; Minuman segar/teh meningkat,Segmen Siang aktif; Peringkat Tea & Minuman Dingin naik,LULUS
+TC-04,Batas Siang ke Sore,"Hari Kerja, 14:59 WIB",Segmen Siang; Status keramaian Sedang,"Segmen Siang; Label Sedang (21.2 tx/jam)",LULUS
+TC-05,Batas Awal Sore,"Hari Kerja, 15:00 WIB",Segmen beralih ke Sore; Teh & kudapan santai naik,Segmen Sore aktif; Tea & Bakery masuk 3 besar,LULUS
+TC-06,Batas Sore ke Malam,"Hari Kerja, 17:59 WIB",Segmen Sore; Status keramaian Sedang,Segmen Sore terdeteksi; Kuantil volume sesuai,LULUS
+TC-07,Batas Awal Malam,"Hari Kerja, 18:00 WIB",Segmen beralih ke Malam; Volume transaksi menurun,Segmen Malam aktif; Status Sedang menuju Sepi,LULUS
+TC-08,Batas Penutupan Toko,"Hari Kerja, 20:59 WIB",Transaksi terakhir sah; Status Sepi (jam tutup),"Status Sepi (< 11.0 tx/jam); Berhasil diproses",LULUS
+TC-09,Luar Jam Operasional,"Hari Kerja, 23:15 WIB",Sistem tolak inferensi; Status Tutup,Flag operasional tutup dikembalikan secara aman,LULUS
+TC-10,Ketahanan Layanan (Flask Mati),Flask Down (Port 5001 Tidak Aktif),Beralih ke Heuristik Fallback dalam < 3 detik,Fallback sukses memuat popularitas_segmen.json,LULUS

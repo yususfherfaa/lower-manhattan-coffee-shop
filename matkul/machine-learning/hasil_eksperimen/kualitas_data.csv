@@ -1,0 +1,13 @@
+,nilai
+kolom_wajib_ada,True
+total_missing,0
+duplikat_baris_penuh,0
+duplikat_transaction_id,0
+qty_min_max,"(1, 6)"
+harga_min_max,"(0.8, 45.0)"
+jam_min_max,"(6, 20)"
+rentang_tanggal,"('2023-01-01', '2023-06-30')"
+jumlah_hari,181
+product_id_ambigu,0
+sha256_data,287d06d19f7a832d48f1deea7b149836fb32d591010f060bdcf8d1959653bfe1
+sklearn,1.6.1

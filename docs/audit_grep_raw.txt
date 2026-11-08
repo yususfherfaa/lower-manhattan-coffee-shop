@@ -1,0 +1,142 @@
+.\CHANGELOG.md:17 [warkop] - The active `warkop_bahagia` database was backed up to the system temporary directory before applying its remaining migrations: order access tokens, security constraints, status cleanup/cancellation, and recommendation logs. The potentially stock-resetting variant seed script was not rerun.
+.\CHANGELOG.md:18 [warkop] - A clone named `warkop_bahagia_test` was created first. PHP migrations and the PR-03, PR-09, PR-13, PR-16, and PR-20 SQL migrations were validated there before updating the active database.
+.\db_warkop_bahagia.sql:21 [warkop] -- Database: `warkop_bahagia`
+.\db_warkop_bahagia.sql:534 [nama_warkop] ('SET002', 'nama_warkop', 'Warkop Bahagia'),
+.\db_warkop_bahagia.sql:535 [Bekasi Utara] ('SET003', 'alamat', 'BEKASI UTARA'),
+.\Prompt-Revisi-Program.md:1 [Warkop Bahagia] # PROMPT LENGKAP PLAN B — WARKOP BAHAGIA (DATASET COFFEE SHOP SALES / MAVEN ROASTERS)
+.\Prompt-Revisi-Program.md:9 [Warkop Bahagia] Kamu adalah engineer senior (Python/pandas/scikit-learn, Flask, CodeIgniter 4, MariaDB 10.4, front-end) yang merombak proyek "Warkop Bahagia" agar komponen machine learning-nya memakai dataset publik bertema coffee shop, bukan dataset sintetis buatan sendiri.
+.\Prompt-Revisi-Program.md:11 [warkop] Judul penelitian sudah disetujui dosen dan TIDAK boleh berubah: "Sistem Rekomendasi Menu Warkop Berbasis Waktu Menggunakan K-Nearest Neighbor". Jadi sistem tetap harus berupa rekomendasi menu berbasis waktu (realtime) dengan KNN, dengan data bertema coffee shop.
+.\Prompt-Revisi-Program.md:20 [warkop] 1. JANGAN mengubah data di database utama `warkop_bahagia`. Semua pengujian yang mengubah data hanya pada salinan `warkop_bahagia_test`. Lakukan `mysqldump` backup dulu sebelum menyentuh DB apa pun, simpan di `backup/` dengan stempel waktu.
+.\Prompt-Revisi-Program.md:21 [warkop] 2. Sebelum mengubah file apa pun, buat pengaman versi: (a) jika repo git, buat tag `backup-sebelum-planB` dan branch kerja `planB-dataset-coffeeshop`; (b) buat salinan ZIP seluruh proyek di luar folder proyek (mis. `../warkop-bahagia-backup-sebelum-planB.zip`), kecuali `vendor/`, `node_modules/`, dan `writable/`. Bukti keduanya harus ditampilkan sebelum lanjut.
+.\Prompt-Revisi-Program.md:132 [warkop] Tujuan: mendukung katalog dari dataset, analitik, dan log, tanpa merusak skema yang ada. DB utama tidak disentuh; semua uji di `warkop_bahagia_test`.
+.\Prompt-Revisi-Program.md:136 [warkop] - Tabel `ref_kategori` (9 kategori dataset → kategori menu warkop) bila perlu pemetaan.
+.\Prompt-Revisi-Program.md:150 [warkop] 5. Pengujian DB (di instans/salinan `warkop_bahagia_test`, atau instans MariaDB sementara): impor schema → seed → agregat berurutan tanpa error; impor ulang (idempotensi) tidak menggandakan data; rollback mengembalikan struktur; `SHOW CREATE TABLE` dan jumlah baris sebagai bukti; uji JOIN lintas tabel tanpa error collation; uji FK (RESTRICT) tetap bekerja.
+.\Prompt-Revisi-Program.md:172 [warkop] 5. Uji end-to-end di `warkop_bahagia_test`: CI4 → Flask → log tercatat.
+.\Prompt-Revisi-Program.md:179 [warkop] 2. **Halaman Analitik Penjualan (admin):** heatmap hari×jam, grafik transaksi per jam, komposisi kategori per segmen, top 10 produk per segmen, tren harian/mingguan/bulanan, pendapatan per kategori (qty × harga), perbandingan 3 toko (opsional; jelaskan bahwa warkop tunggal bisa menyembunyikannya). Semua angka dibaca dari tabel agregat/JSON hasil skrip, bukan hard-code.
+.\Prompt-Revisi-Program.md:195 [Warkop Bahagia] 3. Komponen: kartu menu dengan ikon kategori SVG buatan sendiri/berlisensi bebas (DILARANG memakai logo atau merek kedai kopi nyata), sudut membulat, bayangan lembut, lencana kategori berwarna, tombol utama karamel, tombol sekunder outline, header bertema (cangkir/biji kopi SVG sederhana), footer "Warkop Bahagia".
+.\Prompt-Revisi-Program.md:209 [warkop] 2. `docs/dataset_planB.md`: provenance, kolom, jumlah baris, tahapan pengujian kualitas, pra-pemrosesan langkah demi langkah, definisi segmen, alasan pemilihan target dan fitur, batasan (data fiktif New York, tidak ada konteks warkop Indonesia, kelas tidak seimbang, tidak ada ID pelanggan), catatan etika/lisensi.
+.\README.md:17 [warkop] 2. Salin `.env.example` menjadi `.env`, lalu atur environment, URL aplikasi, dan kredensial database. Jangan commit `.env`. Database aplikasi ini terpisah dari `warkop_bahagia`; gunakan `lowermanhattancoffeshop`.
+.\README.md:18 [warkop] 3. Buat database kosong `lowermanhattancoffeshop` di MySQL/MariaDB, terpisah dari `warkop_bahagia`, lalu impor skema bersih:
+.\README.md:142 [warkop] CREATE USER 'warkop_app'@'localhost' IDENTIFIED BY 'GANTI_DENGAN_PASSWORD_KUAT';
+.\README.md:143 [warkop] GRANT ALL PRIVILEGES ON `lowermanhattancoffeshop`.* TO 'warkop_app'@'localhost';
+.\STATUS_PR-01-21.md:3 [warkop] Status ini merangkum implementasi dan verifikasi pada 20 Oktober 2026. Uji perubahan data dilakukan pada salinan `warkop_bahagia_test`; migrasi yang tertinggal kemudian diterapkan pada `warkop_bahagia` setelah backup.
+.\STATUS_PR-01-21.md:32 [warkop] - Salinan `warkop_bahagia_test` dibuat dari `warkop_bahagia` untuk validasi; migrasi PHP dan berkas SQL PR-03, PR-09, PR-13, PR-16, serta PR-20 diterapkan pada salinan terlebih dahulu. Setelah validasi, migrasi yang tertinggal diterapkan pada database utama dengan backup.
+.\STATUS_PR-01-21.md:42 [warkop] PR-22 rilis operasional siap, dengan catatan evaluasi ML transaksi riil DB ditahan hingga data operasional warkop mencapai batas minimum statistik (rentang 30 hari dan 2.000 baris transaksi lunas), agar hasil rekomendasi valid dan representatif. Tag `v1.0.0` dapat dibuat saat tim siap mempublikasikan versi rilis.
+.\app\Controllers\Auth.php:26 [nama_warkop] 'nama_warkop' => 'Lower Manhattan Coffee Shop',
+.\app\Controllers\Order.php:107 [nama_warkop] 'nama_warkop' =>
+.\app\Controllers\Order.php:108 [nama_warkop] $settings['nama_warkop']
+.\app\Controllers\PaymentQris.php:28 [nama_warkop] $merchantName = trim((string) (setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop'));
+.\app\Controllers\PaymentQris.php:29 [Bekasi Utara] $merchantAddress = trim((string) (setting('alamat') ?? 'Bekasi Utara'));
+.\app\Controllers\PaymentQris.php:36 [Bekasi Utara] 'merchant_address' => $merchantAddress ?: 'Bekasi Utara',
+.\app\Controllers\Admin\Dashboard.php:72 [nama_warkop] 'nama_warkop' => $settings['nama_warkop'] ?? 'Lower Manhattan Coffee Shop',
+.\app\Controllers\Admin\Setting.php:45 [nama_warkop] foreach (['nama_warkop', 'alamat', 'kontak', 'server_url', 'batas_pembayaran_menit'] as $f) {
+.\app\Controllers\Kasir\Bayar.php:45 [nama_warkop] 'nama_warkop' => $settings['nama_warkop'] ?? 'Lower Manhattan Coffee Shop'
+.\app\Controllers\Kasir\Dashboard.php:73 [nama_warkop] 'nama_warkop' => $settings['nama_warkop'] ?? 'Lower Manhattan Coffee Shop',
+.\app\Controllers\Kasir\DetailPesanan.php:78 [nama_warkop] 'nama_warkop' =>
+.\app\Controllers\Kasir\DetailPesanan.php:79 [nama_warkop] $settings['nama_warkop']
+.\app\Controllers\Kasir\Menu.php:84 [nama_warkop] 'nama_warkop' => $settings['nama_warkop'] ?? 'Lower Manhattan Coffee Shop'
+.\app\Controllers\Kasir\Pesanan.php:73 [nama_warkop] 'nama_warkop' =>
+.\app\Controllers\Kasir\Pesanan.php:74 [nama_warkop] $settings['nama_warkop']
+.\app\Controllers\Kasir\Struk.php:47 [nama_warkop] 'nama_warkop' => $settings['nama_warkop'] ?? 'Lower Manhattan Coffee Shop',
+.\app\Database\Migrations\2026-10-28-000001_RenameCoffeeShopBrand.php:17 [nama_warkop] ->where('nama', 'nama_warkop')
+.\app\Views\admin\analitik_penjualan.php:6 [nama_warkop] <title><?= esc($title) ?> — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\dashboard.php:6 [nama_warkop] <title>Dashboard Admin — <?= esc($nama_warkop) ?></title>
+.\app\Views\admin\dashboard.php:145 [nama_warkop] <p>Ringkasan penjualan, kasir, dan inventaris <?= esc($nama_warkop) ?></p>
+.\app\Views\admin\dashboard.php:251 [nama_warkop] © <?= date('Y') ?> <?= esc($nama_warkop) ?> — Dashboard Admin
+.\app\Views\admin\evaluasi_model.php:6 [nama_warkop] <title><?= esc($title) ?> — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\laporan_stok.php:6 [nama_warkop] <title>Laporan Stok — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\laporan_stok.php:77 [nama_warkop] <p class="text-muted" style="margin:4px 0 0 0;">Monitoring persediaan bahan dan stok menu di <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></p>
+.\app\Views\admin\laporan_stok.php:185 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\admin\qr_meja.php:6 [nama_warkop] <title>Generate QR Meja — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\qr_meja.php:188 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\admin\recommendation_acceptance.php:6 [nama_warkop] <title>Tingkat Penerimaan Rekomendasi — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\settings.php:6 [nama_warkop] <title>Pengaturan Sistem — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\settings.php:134 [nama_warkop] name="nama_warkop"
+.\app\Views\admin\settings.php:136 [nama_warkop] value="<?= esc($settings['nama_warkop'] ?? '') ?>"
+.\app\Views\admin\settings.php:239 [nama_warkop] © <?= date('Y') ?> <?= esc($settings['nama_warkop'] ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\admin\kasir\add.php:6 [nama_warkop] <title>Tambah Kasir — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\kasir\add.php:124 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\admin\kasir\edit.php:6 [nama_warkop] <title>Edit Kasir — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\kasir\edit.php:135 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\admin\kasir\list.php:6 [nama_warkop] <title>Daftar Kasir — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\admin\kasir\list.php:131 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\auth\login.php:6 [nama_warkop] <title>Login — <?= esc($nama_warkop) ?></title>
+.\app\Views\auth\login.php:35 [nama_warkop] <span><?= esc($nama_warkop) ?></span>
+.\app\Views\auth\login.php:50 [nama_warkop] <p class="subtitle">Masuk ke dashboard <?= esc($nama_warkop) ?></p>
+.\app\Views\auth\login.php:88 [nama_warkop] © <?= date('Y') ?> <?= esc($nama_warkop) ?>
+.\app\Views\customer\cart.php:6 [nama_warkop] <title>Keranjang Pesanan — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\customer\cart.php:369 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\customer\order.php:6 [nama_warkop] <title>Menu — <?= esc($nama_warkop) ?></title>
+.\app\Views\customer\order.php:410 [nama_warkop] <h1><?= esc($nama_warkop) ?></h1>
+.\app\Views\customer\order_success.php:6 [nama_warkop] <title>Pesanan Berhasil — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\customer\order_success.php:127 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\customer\payment_qris.php:6 [nama_warkop] <title>Pembayaran QRIS — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\customer\payment_qris.php:84 [NMID] .merchant-box .nmid {
+.\app\Views\customer\payment_qris.php:338 [Kaliabang] <div class="address">Jl. Kaliabang No.8, Perwira, Bekasi Utara, Kota Bekasi, Jawa Barat</div>
+.\app\Views\customer\payment_qris.php:339 [NMID] <div class="nmid">NMID: ID102435780413</div>
+.\app\Views\customer\payment_qris.php:369 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\kasir\bayar.php:6 [nama_warkop] <title>Pembayaran Pesanan #<?= esc($order['id_order']) ?> — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\kasir\bayar.php:250 [warkop] Pelanggan telah memilih pembayaran via QRIS. Mohon periksa mutasi saldo di aplikasi rekening/QRIS warkop sebelum menekan tombol verifikasi.
+.\app\Views\kasir\bayar.php:265 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\kasir\dashboard.php:6 [nama_warkop] <title>Dashboard Kasir — <?= esc($nama_warkop) ?></title>
+.\app\Views\kasir\dashboard.php:271 [nama_warkop] © <?= date('Y') ?> <?= esc($nama_warkop) ?> — Dashboard Kasir
+.\app\Views\kasir\detail_pesanan.php:6 [nama_warkop] <title>Detail Pesanan #<?= esc($order['id_order']) ?> — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\kasir\detail_pesanan.php:220 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\kasir\pesanan.php:6 [nama_warkop] <title>Daftar Pesanan — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\kasir\pesanan.php:213 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?> — Kelola Pesanan
+.\app\Views\kasir\struk.php:6 [nama_warkop] <title>Struk Pembayaran #<?= esc($order['id_order']) ?> — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\kasir\struk.php:143 [nama_warkop] <h2><?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></h2>
+.\app\Views\kasir\laporan\index.php:7 [nama_warkop] <title>Laporan Penjualan — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\kasir\laporan\index.php:115 [nama_warkop] <p class="text-muted" style="margin:4px 0 0 0;">Rekapitulasi transaksi pemesanan dan omzet <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></p>
+.\app\Views\kasir\laporan\index.php:217 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\kasir\menu\edit.php:6 [nama_warkop] <title>Edit Menu — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\kasir\menu\edit.php:241 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\kasir\menu\index.php:6 [nama_warkop] <title>Manajemen Menu — <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></title>
+.\app\Views\kasir\menu\index.php:192 [nama_warkop] <p class="text-muted" style="margin:4px 0 0 0;">Tambah dan perbarui katalog sajian <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?></p>
+.\app\Views\kasir\menu\index.php:349 [nama_warkop] © <?= date('Y') ?> <?= esc(setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop') ?>
+.\app\Views\layout\navbar_admin.php:3 [nama_warkop] $namaWarkop = setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop';
+.\app\Views\layout\navbar_kasir.php:3 [nama_warkop] $namaWarkop = setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop';
+.\backup\db_warkop_bahagia_backup.sql:346 [Bekasi Utara] INSERT INTO `settings` VALUES ('SET001','logo','uploads/1782893162_877638d3b731e6f63229.png'),('SET002','nama_warkop','Warkop Bahagia'),('SET003','alamat','BEKASI UTARA'),('SET004','kontak','08753453211'),('SET005','server_url','192.168.0.110:8080'),('SET006','batas_pembayaran_menit','15'),('SET007','qris','uploads/1792432539_332f0ac0cf359c9c21b1.jpeg');
+.\backup\db_warkop_bahagia_backup_20261027_080000.sql:346 [Bekasi Utara] INSERT INTO `settings` VALUES ('SET001','logo','uploads/1782893162_877638d3b731e6f63229.png'),('SET002','nama_warkop','Warkop Bahagia'),('SET003','alamat','BEKASI UTARA'),('SET004','kontak','08753453211'),('SET005','server_url','192.168.0.110:8080'),('SET006','batas_pembayaran_menit','15'),('SET007','qris','uploads/1792432539_332f0ac0cf359c9c21b1.jpeg');
+.\backup\warkop_bahagia_backup.sql:3 [warkop] -- Host: localhost    Database: warkop_bahagia
+.\backup\warkop_bahagia_backup.sql:19 [warkop] -- Current Database: `warkop_bahagia`
+.\backup\warkop_bahagia_backup.sql:22 [warkop] CREATE DATABASE /*!32312 IF NOT EXISTS*/ `warkop_bahagia` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+.\backup\warkop_bahagia_backup.sql:24 [warkop] USE `warkop_bahagia`;
+.\backup\warkop_bahagia_backup_20261027_080000.sql:3 [warkop] -- Host: localhost    Database: warkop_bahagia
+.\backup\warkop_bahagia_backup_20261027_080000.sql:19 [warkop] -- Current Database: `warkop_bahagia`
+.\backup\warkop_bahagia_backup_20261027_080000.sql:22 [warkop] CREATE DATABASE /*!32312 IF NOT EXISTS*/ `warkop_bahagia` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+.\backup\warkop_bahagia_backup_20261027_080000.sql:24 [warkop] USE `warkop_bahagia`;
+.\database\lowermanhattancoffeshop.sql:1717 [nama_warkop] ('SET002', 'nama_warkop', 'Lower Manhattan Coffee Shop'),
+.\database\lowermanhattancoffeshop.sql:1718 [Bekasi Utara] ('SET003', 'alamat', 'BEKASI UTARA'),
+.\database\migrasi_keamanan.sql:7 [warkop] --      mysqldump -u root -p warkop_bahagia > database/backup_sebelum_migrasi_keamanan.sql
+.\database\migrasi_pembatalan_pesanan.sql:3 [warkop] -- mysqldump -u USER_DATABASE -p --single-transaction warkop_bahagia > warkop_bahagia-sebelum-pr13.sql
+.\database\migrasi_varian_suhu.sql:2 [Warkop Bahagia] -- MIGRASI VARIAN SUHU & PRODUK BARU WARKOP BAHAGIA
+.\database\schema.sql:1 [Warkop Bahagia] ﻿-- Skema dasar Warkop Bahagia tanpa baris data atau kredensial.
+.\database\planB\00_README.md:16 [warkop] > **PERINGATAN KERAS**: Uji selalu file ini pada database pengujian (`warkop_bahagia_test`) sebelum diterapkan pada basis data utama.
+.\docs\audit_planB.md:3 [warkop] Target: Sistem Rekomendasi Menu Warkop Berbasis Waktu Menggunakan K-Nearest Neighbor (Dataset Coffee Shop Sales / Maven Roasters)
+.\docs\audit_planB.md:14 [warkop] - File zip dibuat di: `C:\xampp\htdocs\warkop-bahagia-backup-sebelum-planB.zip`
+.\docs\audit_planB.md:18 [warkop] - Database yang ada pada server MariaDB 10.4: `db_warkop_bahagia` (database aktif aplikasi dengan 12 tabel terisi) dan database kosong `warkop_bahagia`.
+.\docs\audit_planB.md:21 [warkop] 2. `backup/warkop_bahagia_backup_20261027_080000.sql` (1,509 bytes)
+.\docs\audit_planB.md:22 [warkop] - Database uji terisolasi telah disiapkan: `warkop_bahagia_test` (utf8mb4_general_ci). Database utama tidak akan disentuh selama pengujian.
+.\docs\audit_planB.md:29 [warkop] - `Config/`: `Database.php` (menunjuk database `warkop_bahagia`), `Recommendation.php` (`LOW_CONFIDENCE_THRESHOLD = 150`), `Routes.php`.
+.\docs\dataset_planB.md:54 [warkop] - Modus `unit_price` historis per `product_id` dijadikan acuan harga katalog standar warkop.
+.\docs\desain_db_planB.md:3 [Warkop Bahagia] Dokumen ini menjelaskan perubahan struktur basis data untuk mendukung migrasi ke dataset publik bertema coffee shop (Maven Roasters) pada sistem rekomendasi Warkop Bahagia.
+.\docs\desain_db_planB.md:11 [warkop] 4. **Isolasi Pengujian**: Diuji dan diverifikasi secara menyeluruh pada database `warkop_bahagia_test`.
+.\docs\desain_db_planB.md:125 [warkop] - Impor `01_schema_planB.sql`, `02_seed_katalog.sql`, dan `03_seed_agregat.sql` pada database `warkop_bahagia_test` berjalan 100% sukses tanpa error 1005, 1267, atau 1265.
+.\docs\IDENTITAS_PROYEK.md:20 [warkop] | Database proyek lain | `warkop_bahagia` adalah database terpisah dan bukan target aplikasi ini |
+.\docs\IDENTITAS_PROYEK.md:499 [warkop] `lowermanhattancoffeshop`, bukan `warkop_bahagia`.
+.\docs\keputusan_planB.md:2 [warkop] Target: Sistem Rekomendasi Menu Warkop Berbasis Waktu Menggunakan K-Nearest Neighbor
+.\docs\keputusan_planB.md:9 [warkop] - **Alasan**: Dataset Maven Roasters menggunakan satuan USD ($0.8 - $45.00). Untuk menu warkop Indonesia, konversi realistis mempermudah integrasi transaksi dan persepsi harga pelanggan.
+.\docs\perubahan_planB.md:14 [warkop] - `ml/config/mapping_kategori.json`: Pemetaan 9 kategori Maven Roasters ke kategori menu warkop lokal.
+.\docs\perubahan_planB.md:17 [warkop] - `ml/tests/test_time_segmentation.py`: Unit test pytest untuk pengujian batas jam segmen waktu warkop.
+.\docs\perubahan_planB.md:28 [warkop] - `app/Controllers/Admin/AnalitikPenjualan.php`: Controller dasbor analitik pola penjualan jam warkop.
+.\docs\matkul\ASUMSI.md:13 [Kaliabang] - **Kelas & Kampus**: 15.5A.05, Universitas Bina Sarana Informatika (UBSI) Kampus Kaliabang.
+.\docs\matkul\temuan_audit.md:10 [Warkop Bahagia] - *Status*: Merupakan artefak sisa dari iterasi awal ("Plan A / Warkop Bahagia") sebelum migrasi penuh ke dataset Maven Roasters Lower Manhattan ("Plan B").
+.\docs\matkul\temuan_audit.md:13 [warkop] - *Status*: Skrip pembangkit data transaksi sintetis untuk mockup warkop lokal terdahulu.
+.\matkul\README.md:15 [Kaliabang] - **Kampus**: Universitas Bina Sarana Informatika (UBSI) Kampus Kaliabang
+.\matkul\kecerdasan-buatan\06_analisis_etika_dan_keterbatasan.md:39 [warkop] - Di Indonesia, budaya warkop dan kedai kopi modern sering kali berfungsi sebagai ruang komunal sosial (*third place*) dengan waktu kunjungan puncak di malam hari serta preferensi menu kopi susu manis, makanan berat, dan camilan lokal. Perbedaan budaya ini menjadi bias inheren dalam data pelatihan.
+.\matkul\laporan\Laporan_Kecerdasan_Buatan.md:11 [Kaliabang] **Perguruan Tinggi**: Universitas Bina Sarana Informatika (UBSI) Kampus Kaliabang
+.\matkul\laporan\Laporan_Kecerdasan_Buatan.md:409 [warkop] - Di Indonesia, budaya warkop dan kedai kopi modern sering kali berfungsi sebagai ruang komunal sosial (*third place*) dengan waktu kunjungan puncak di malam hari serta preferensi menu kopi susu manis, makanan berat, dan camilan lokal. Perbedaan budaya ini menjadi bias inheren dalam data pelatihan.
+.\matkul\laporan\Laporan_Machine_Learning.md:11 [Kaliabang] **Perguruan Tinggi**: Universitas Bina Sarana Informatika (UBSI) Kampus Kaliabang
+.\tests\unit\RekomendasiEndToEndTest.php:14 [warkop] // 1. Hubungkan ke database uji warkop_bahagia_test
+.\tests\unit\RekomendasiEndToEndTest.php:16 [warkop] $config->default['database'] = 'warkop_bahagia_test';

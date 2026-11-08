@@ -1,0 +1,17 @@
+skema,model,akurasi_%,CI95_bawah,CI95_atas,CI_baris_bawah,CI_baris_atas
+acak 80:20,"KNN (K=1, F1 makro CV)",28.18,27.21,29.2,27.25,29.05
+acak 80:20,"KNN (K=20, nilai repo)",35.31,34.28,36.27,34.38,36.21
+acak 80:20,"KNN (K=600, akurasi CV)",38.1,37.04,39.18,37.13,39.06
+acak 80:20,Decision Tree (depth 6),38.11,37.05,39.21,37.16,39.08
+acak 80:20,Naive Bayes (Gaussian),38.1,37.04,39.18,37.13,39.06
+acak 80:20,Random Forest (100),38.11,37.05,39.21,37.16,39.08
+acak 80:20,Logistic Regression,38.1,37.04,39.18,37.13,39.06
+acak 80:20,BASELINE mayoritas,38.1,,,,
+temporal Jan-Mei/Jun,"KNN (K=1, F1 makro CV)",29.12,27.41,30.68,28.25,30.0
+temporal Jan-Mei/Jun,"KNN (K=20, nilai repo)",35.25,34.11,36.47,34.37,36.13
+temporal Jan-Mei/Jun,"KNN (K=600, akurasi CV)",38.79,37.55,40.13,37.85,39.75
+temporal Jan-Mei/Jun,Decision Tree (depth 6),38.65,37.42,39.94,37.73,39.59
+temporal Jan-Mei/Jun,Naive Bayes (Gaussian),38.79,37.55,40.13,37.85,39.75
+temporal Jan-Mei/Jun,Random Forest (100),38.65,37.42,39.94,37.73,39.59
+temporal Jan-Mei/Jun,Logistic Regression,38.79,37.55,40.13,37.85,39.75
+temporal Jan-Mei/Jun,BASELINE mayoritas,38.79,,,,

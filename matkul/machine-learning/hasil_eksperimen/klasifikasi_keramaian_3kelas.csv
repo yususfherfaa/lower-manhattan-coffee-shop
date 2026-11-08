@@ -1,0 +1,37 @@
+skema,model,akurasi,f1_makro
+acak 80:20,Baseline mayoritas,0.5265,0.23
+acak 80:20,Baseline modus per jam,0.5863,0.5607
+acak 80:20,KNN (K=15),0.6704,0.6596
+acak 80:20,Decision Tree,0.6615,0.6665
+acak 80:20,Naive Bayes,0.5885,0.5932
+acak 80:20,Random Forest,0.6593,0.6548
+temporal Jan-Mei/Jun,Baseline mayoritas,0.44,0.2037
+temporal Jan-Mei/Jun,Baseline modus per jam,0.7333,0.6593
+temporal Jan-Mei/Jun,KNN (K=15),0.7253,0.5731
+temporal Jan-Mei/Jun,Decision Tree,0.7147,0.5871
+temporal Jan-Mei/Jun,Naive Bayes,0.7147,0.6526
+temporal Jan-Mei/Jun,Random Forest,0.7253,0.599
+maju: uji bulan 3,Baseline mayoritas,0.4637,0.2112
+maju: uji bulan 3,Baseline modus per jam,0.6736,0.641
+maju: uji bulan 3,KNN (K=15),0.6295,0.5976
+maju: uji bulan 3,Decision Tree,0.6321,0.6042
+maju: uji bulan 3,Naive Bayes,0.6399,0.6157
+maju: uji bulan 3,Random Forest,0.6503,0.6242
+maju: uji bulan 4,Baseline mayoritas,0.4516,0.2074
+maju: uji bulan 4,Baseline modus per jam,0.707,0.6589
+maju: uji bulan 4,KNN (K=15),0.6694,0.6235
+maju: uji bulan 4,Decision Tree,0.6909,0.6355
+maju: uji bulan 4,Naive Bayes,0.6478,0.6061
+maju: uji bulan 4,Random Forest,0.6532,0.585
+maju: uji bulan 5,Baseline mayoritas,0.419,0.1969
+maju: uji bulan 5,Baseline modus per jam,0.7429,0.6821
+maju: uji bulan 5,KNN (K=15),0.7404,0.6069
+maju: uji bulan 5,Decision Tree,0.7352,0.6616
+maju: uji bulan 5,Naive Bayes,0.7044,0.6359
+maju: uji bulan 5,Random Forest,0.7275,0.6119
+maju: uji bulan 6,Baseline mayoritas,0.44,0.2037
+maju: uji bulan 6,Baseline modus per jam,0.7333,0.6593
+maju: uji bulan 6,KNN (K=15),0.7253,0.5731
+maju: uji bulan 6,Decision Tree,0.7147,0.5871
+maju: uji bulan 6,Naive Bayes,0.7147,0.6526
+maju: uji bulan 6,Random Forest,0.7253,0.599

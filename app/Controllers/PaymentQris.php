@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Libraries\StoreIdentity;
 
 class PaymentQris extends BaseController
 {
@@ -25,17 +26,18 @@ class PaymentQris extends BaseController
             return $this->response->setStatusCode(403)->setBody('Akses pesanan tidak valid.');
         }
 
-        $merchantName = trim((string) (setting('nama_warkop') ?? 'Lower Manhattan Coffee Shop'));
-        $merchantAddress = trim((string) (setting('alamat') ?? 'Bekasi Utara'));
-        $qris = trim((string) (setting('qris') ?? 'uploads/qris-placeholder.svg'));
+        $store = StoreIdentity::get();
 
         return view('customer/payment_qris', [
-            'order' => $order,
-            'id_meja' => $id_meja,
-            'merchant_name' => $merchantName ?: 'Lower Manhattan Coffee Shop',
-            'merchant_address' => $merchantAddress ?: 'Bekasi Utara',
-            'qris' => $qris ?: 'uploads/qris-placeholder.svg',
-            'order_token' => $order['token'],
+            'order'          => $order,
+            'id_meja'        => $id_meja,
+            'nama_toko'      => $store['nama_toko'],
+            'alamat_lengkap' => $store['alamat_lengkap'],
+            'nmid'           => $store['nmid'],
+            'qris'           => $store['qris_image'],
+            'qris_mode'      => $store['qris_mode'],
+            'is_demo'        => $store['is_demo'],
+            'order_token'    => $order['token'],
         ]);
     }
 }
